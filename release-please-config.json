@@ -1,215 +1,635 @@
 {
   "release-type": "dotnet-yoshi",
   "packages": {
-    "apis/Google.Analytics.Admin.V1Alpha": {},
-    "apis/Google.Analytics.Admin.V1Beta": {},
-    "apis/Google.Analytics.Data.V1Beta": {},
-    "apis/Google.Apps.Script.Type": {},
-    "apis/Google.Area120.Tables.V1Alpha1": {},
-    "apis/Google.Cloud.AccessApproval.V1": {},
-    "apis/Google.Cloud.AdvisoryNotifications.V1": {},
-    "apis/Google.Cloud.AlloyDb.V1": {},
-    "apis/Google.Cloud.AlloyDb.V1Alpha": {},
-    "apis/Google.Cloud.AlloyDb.V1Beta": {},
-    "apis/Google.Cloud.ApiGateway.V1": {},
-    "apis/Google.Cloud.AIPlatform.V1": {},
-    "apis/Google.Cloud.ApiKeys.V2": {},
-    "apis/Google.Cloud.ApigeeConnect.V1": {},
-    "apis/Google.Cloud.ApigeeRegistry.V1": {},
-    "apis/Google.Cloud.AppEngine.Logging.V1": {},
-    "apis/Google.Cloud.AppEngine.V1": {},
-    "apis/Google.Cloud.ArtifactRegistry.V1": {},
-    "apis/Google.Cloud.ArtifactRegistry.V1Beta2": {},
-    "apis/Google.Cloud.Asset.V1": {},
-    "apis/Google.Cloud.AssuredWorkloads.V1": {},
-    "apis/Google.Cloud.AssuredWorkloads.V1Beta1": {},
-    "apis/Google.Cloud.Audit": {},
-    "apis/Google.Cloud.AutoML.V1": {},
-    "apis/Google.Cloud.BareMetalSolution.V2": {},
-    "apis/Google.Cloud.Batch.V1": {},
-    "apis/Google.Cloud.Batch.V1Alpha": {},
-    "apis/Google.Cloud.BeyondCorp.AppConnections.V1": {},
-    "apis/Google.Cloud.BeyondCorp.AppConnectors.V1": {},
-    "apis/Google.Cloud.BeyondCorp.AppGateways.V1": {},
-    "apis/Google.Cloud.BeyondCorp.ClientConnectorServices.V1": {},
-    "apis/Google.Cloud.BeyondCorp.ClientGateways.V1": {},
-    "apis/Google.Cloud.BigQuery.AnalyticsHub.V1": {},
-    "apis/Google.Cloud.BigQuery.Connection.V1": {},
-    "apis/Google.Cloud.BigQuery.DataExchange.V1Beta1": {},
-    "apis/Google.Cloud.BigQuery.DataPolicies.V1": {},
-    "apis/Google.Cloud.BigQuery.DataPolicies.V1Beta1": {},
-    "apis/Google.Cloud.BigQuery.DataTransfer.V1": {},
-    "apis/Google.Cloud.BigQuery.Logging.V1": {},
-    "apis/Google.Cloud.BigQuery.Migration.V2": {},
-    "apis/Google.Cloud.BigQuery.Reservation.V1": {},
-    "apis/Google.Cloud.BigQuery.V2": {},
-    "apis/Google.Cloud.BigQuery.Storage.V1": {},
-    "apis/Google.Cloud.Bigtable.Admin.V2": {},
-    "apis/Google.Cloud.Bigtable.Common.V2": {},
-    "apis/Google.Cloud.Bigtable.V2": {},
-    "apis/Google.Cloud.Billing.Budgets.V1": {},
-    "apis/Google.Cloud.Billing.Budgets.V1Beta1": {},
-    "apis/Google.Cloud.Billing.V1": {},
-    "apis/Google.Cloud.BinaryAuthorization.V1": {},
-    "apis/Google.Cloud.BinaryAuthorization.V1Beta1": {},
-    "apis/Google.Cloud.CertificateManager.V1": {},
-    "apis/Google.Cloud.Channel.V1": {},
-    "apis/Google.Cloud.CloudBuild.V1": {},
-    "apis/Google.Cloud.CloudBuild.V2": {},
-    "apis/Google.Cloud.CloudDms.V1": {},
-    "apis/Google.Cloud.Common": {},
-    "apis/Google.Cloud.Compute.V1": {},
-    "apis/Google.Cloud.ConfidentialComputing.V1": {},
-    "apis/Google.Cloud.ConfidentialComputing.V1Alpha1": {},
-    "apis/Google.Cloud.ContactCenterInsights.V1": {},
-    "apis/Google.Cloud.Container.V1": {},
-    "apis/Google.Cloud.DataCatalog.Lineage.V1": {},
-    "apis/Google.Cloud.DataCatalog.V1": {},
-    "apis/Google.Cloud.DataFusion.V1": {},
-    "apis/Google.Cloud.DataLabeling.V1Beta1": {},
-    "apis/Google.Cloud.DataQnA.V1Alpha": {},
-    "apis/Google.Cloud.Dataflow.V1Beta3": {},
-    "apis/Google.Cloud.Dataform.V1Beta1": {},
-    "apis/Google.Cloud.Dataplex.V1": {},
-    "apis/Google.Cloud.Dataproc.V1": {},
-    "apis/Google.Cloud.Datastore.Admin.V1": {},
-    "apis/Google.Cloud.Datastore.V1": {},
-    "apis/Google.Cloud.Datastream.V1": {},
-    "apis/Google.Cloud.Datastream.V1Alpha1": {},
-    "apis/Google.Cloud.Debugger.V2": {},
-    "apis/Google.Cloud.Deploy.V1": {},
-    "apis/Google.Cloud.DevTools.Common": {},
-    "apis/Google.Cloud.Dialogflow.Cx.V3": {},
-    "apis/Google.Cloud.Dialogflow.V2": {},
-    "apis/Google.Cloud.Dialogflow.V2Beta1": {},
-    "apis/Google.Cloud.DiscoveryEngine.V1Beta": {},
-    "apis/Google.Cloud.Dlp.V2": {},
-    "apis/Google.Cloud.DocumentAI.V1": {},
-    "apis/Google.Cloud.DocumentAI.V1Beta3": {},
-    "apis/Google.Cloud.Domains.V1": {},
-    "apis/Google.Cloud.Domains.V1Beta1": {},
-    "apis/Google.Cloud.EnterpriseKnowledgeGraph.V1": {},
-    "apis/Google.Cloud.ErrorReporting.V1Beta1": {},
-    "apis/Google.Cloud.EssentialContacts.V1": {},
-    "apis/Google.Cloud.Eventarc.Publishing.V1": {},
-    "apis/Google.Cloud.Eventarc.V1": {},
-    "apis/Google.Cloud.Filestore.V1": {},
-    "apis/Google.Cloud.Firestore.Admin.V1": {},
-    "apis/Google.Cloud.Functions.V1": {},
-    "apis/Google.Cloud.Functions.V2": {},
-    "apis/Google.Cloud.Functions.V2Beta": {},
-    "apis/Google.Cloud.GSuiteAddOns.V1": {},
-    "apis/Google.Cloud.Gaming.V1": {},
-    "apis/Google.Cloud.Gaming.V1Beta": {},
-    "apis/Google.Cloud.GkeBackup.V1": {},
-    "apis/Google.Cloud.GkeConnect.Gateway.V1Beta1": {},
-    "apis/Google.Cloud.GkeHub.V1Beta1": {},
-    "apis/Google.Cloud.GkeHub.V1": {},
-    "apis/Google.Cloud.GkeMultiCloud.V1": {},
-    "apis/Google.Cloud.Iam.Admin.V1": {},
-    "apis/Google.Cloud.Iam.Credentials.V1": {},
-    "apis/Google.Cloud.Iam.V1": {},
-    "apis/Google.Cloud.Iam.V2": {},
-    "apis/Google.Cloud.Iap.V1": {},
-    "apis/Google.Cloud.Ids.V1": {},
-    "apis/Google.Cloud.Iot.V1": {},
-    "apis/Google.Cloud.Kms.Inventory.V1": {},
-    "apis/Google.Cloud.Kms.V1": {},
-    "apis/Google.Cloud.Language.V1": {},
-    "apis/Google.Cloud.LifeSciences.V2Beta": {},
-    "apis/Google.Cloud.Location": {},
-    "apis/Google.Cloud.Logging.Log4Net": {},
-    "apis/Google.Cloud.Logging.Console": {},
-    "apis/Google.Cloud.Logging.NLog": {},
-    "apis/Google.Cloud.Logging.Type": {},
-    "apis/Google.Cloud.Logging.V2": {},
-    "apis/Google.Cloud.ManagedIdentities.V1": {},
-    "apis/Google.Cloud.MediaTranslation.V1Beta1": {},
-    "apis/Google.Cloud.Memcache.V1": {},
-    "apis/Google.Cloud.Memcache.V1Beta2": {},
-    "apis/Google.Cloud.Metastore.V1": {},
-    "apis/Google.Cloud.Metastore.V1Alpha": {},
-    "apis/Google.Cloud.Metastore.V1Beta": {},
-    "apis/Google.Cloud.MigrationCenter.V1": {},
-    "apis/Google.Cloud.Monitoring.V3": {},
-    "apis/Google.Cloud.NetworkConnectivity.V1": {},
-    "apis/Google.Cloud.NetworkConnectivity.V1Alpha1": {},
-    "apis/Google.Cloud.NetworkManagement.V1": {},
-    "apis/Google.Cloud.NetworkSecurity.V1Beta1": {},
-    "apis/Google.Cloud.Notebooks.V1": {},
-    "apis/Google.Cloud.Notebooks.V1Beta1": {},
-    "apis/Google.Cloud.Optimization.V1": {},
-    "apis/Google.Cloud.Orchestration.Airflow.Service.V1": {},
-    "apis/Google.Cloud.OrgPolicy.V1": {},
-    "apis/Google.Cloud.OrgPolicy.V2": {},
-    "apis/Google.Cloud.OsConfig.V1": {},
-    "apis/Google.Cloud.OsConfig.V1Alpha": {},
-    "apis/Google.Cloud.PhishingProtection.V1Beta1": {},
-    "apis/Google.Cloud.PolicyTroubleshooter.V1": {},
-    "apis/Google.Cloud.PrivateCatalog.V1Beta1": {},
-    "apis/Google.Cloud.Profiler.V2": {},
-    "apis/Google.Cloud.PubSub.V1": {},
-    "apis/Google.Cloud.RapidMigrationAssessment.V1": {},
-    "apis/Google.Cloud.RecaptchaEnterprise.V1": {},
-    "apis/Google.Cloud.RecaptchaEnterprise.V1Beta1": {},
-    "apis/Google.Cloud.RecommendationEngine.V1Beta1": {},
-    "apis/Google.Cloud.Recommender.V1": {},
-    "apis/Google.Cloud.Redis.V1": {},
-    "apis/Google.Cloud.Redis.V1Beta1": {},
-    "apis/Google.Cloud.ResourceManager.V3": {},
-    "apis/Google.Cloud.ResourceSettings.V1": {},
-    "apis/Google.Cloud.Retail.V2": {},
-    "apis/Google.Cloud.Run.V2": {},
-    "apis/Google.Cloud.Scheduler.V1": {},
-    "apis/Google.Cloud.SecretManager.V1": {},
-    "apis/Google.Cloud.SecretManager.V1Beta1": {},
-    "apis/Google.Cloud.Security.PrivateCA.V1": {},
-    "apis/Google.Cloud.Security.PublicCA.V1Beta1": {},
-    "apis/Google.Cloud.SecurityCenter.Settings.V1Beta1": {},
-    "apis/Google.Cloud.SecurityCenter.V1": {},
-    "apis/Google.Cloud.SecurityCenter.V1P1Beta1": {},
-    "apis/Google.Cloud.ServiceControl.V1": {},
-    "apis/Google.Cloud.ServiceDirectory.V1": {},
-    "apis/Google.Cloud.ServiceDirectory.V1Beta1": {},
-    "apis/Google.Cloud.ServiceManagement.V1": {},
-    "apis/Google.Cloud.ServiceUsage.V1": {},
-    "apis/Google.Cloud.Shell.V1": {},
-    "apis/Google.Cloud.Speech.V1": {},
-    "apis/Google.Cloud.Speech.V1P1Beta1": {},
-    "apis/Google.Cloud.Speech.V2": {},
-    "apis/Google.Cloud.Storage.V1": {},
-    "apis/Google.Cloud.StorageInsights.V1": {},
-    "apis/Google.Cloud.StorageTransfer.V1": {},
-    "apis/Google.Cloud.Support.V2": {},
-    "apis/Google.Cloud.Talent.V4": {},
-    "apis/Google.Cloud.Talent.V4Beta1": {},
-    "apis/Google.Cloud.Tasks.V2": {},
-    "apis/Google.Cloud.Tasks.V2Beta3": {},
-    "apis/Google.Cloud.TextToSpeech.V1": {},
-    "apis/Google.Cloud.TextToSpeech.V1Beta1": {},
-    "apis/Google.Cloud.Tpu.V1": {},
-    "apis/Google.Cloud.Trace.V1": {},
-    "apis/Google.Cloud.Trace.V2": {},
-    "apis/Google.Cloud.Translate.V3": {},
-    "apis/Google.Cloud.Translation.V2": {},
-    "apis/Google.Cloud.VMMigration.V1": {},
-    "apis/Google.Cloud.Video.LiveStream.V1": {},
-    "apis/Google.Cloud.Video.Stitcher.V1": {},
-    "apis/Google.Cloud.Video.Transcoder.V1": {},
-    "apis/Google.Cloud.VideoIntelligence.V1": {},
-    "apis/Google.Cloud.Vision.V1": {},
-    "apis/Google.Cloud.VmwareEngine.V1": {},
-    "apis/Google.Cloud.VpcAccess.V1": {},
-    "apis/Google.Cloud.WebRisk.V1": {},
-    "apis/Google.Cloud.WebRisk.V1Beta1": {},
-    "apis/Google.Cloud.WebSecurityScanner.V1": {},
-    "apis/Google.Geo.Type": {},
-    "apis/Google.Identity.AccessContextManager.Type": {},
-    "apis/Google.Identity.AccessContextManager.V1": {},
-    "apis/Google.LongRunning": {},
-    "apis/Google.Maps.AddressValidation.V1": {},
-    "apis/Google.Maps.MapsPlatformDatasets.V1Alpha": {},
-    "apis/Google.Maps.Places.V1": {},
-    "apis/Google.Maps.Routing.V2": {}
+    "apis/Google.Analytics.Admin.V1Alpha": {
+      "component": "Google.Analytics.Admin.V1Alpha"
+    },
+    "apis/Google.Analytics.Admin.V1Beta": {
+      "component": "Google.Analytics.Admin.V1Beta"
+    },
+    "apis/Google.Analytics.Data.V1Beta": {
+      "component": "Google.Analytics.Data.V1Beta"
+    },
+    "apis/Google.Apps.Script.Type": {
+      "component": "Google.Apps.Script.Type"
+    },
+    "apis/Google.Area120.Tables.V1Alpha1": {
+      "component": "Google.Area120.Tables.V1Alpha1"
+    },
+    "apis/Google.Cloud.AccessApproval.V1": {
+      "component": "Google.Cloud.AccessApproval.V1"
+    },
+    "apis/Google.Cloud.AdvisoryNotifications.V1": {
+      "component": "Google.Cloud.AdvisoryNotifications.V1"
+    },
+    "apis/Google.Cloud.AlloyDb.V1": {
+      "component": "Google.Cloud.AlloyDb.V1"
+    },
+    "apis/Google.Cloud.AlloyDb.V1Alpha": {
+      "component": "Google.Cloud.AlloyDb.V1Alpha"
+    },
+    "apis/Google.Cloud.AlloyDb.V1Beta": {
+      "component": "Google.Cloud.AlloyDb.V1Beta"
+    },
+    "apis/Google.Cloud.ApiGateway.V1": {
+      "component": "Google.Cloud.ApiGateway.V1"
+    },
+    "apis/Google.Cloud.AIPlatform.V1": {
+      "component": "Google.Cloud.AIPlatform.V1"
+    },
+    "apis/Google.Cloud.ApiKeys.V2": {
+      "component": "Google.Cloud.ApiKeys.V2"
+    },
+    "apis/Google.Cloud.ApigeeConnect.V1": {
+      "component": "Google.Cloud.ApigeeConnect.V1"
+    },
+    "apis/Google.Cloud.ApigeeRegistry.V1": {
+      "component": "Google.Cloud.ApigeeRegistry.V1"
+    },
+    "apis/Google.Cloud.AppEngine.Logging.V1": {
+      "component": "Google.Cloud.AppEngine.Logging.V1"
+    },
+    "apis/Google.Cloud.AppEngine.V1": {
+      "component": "Google.Cloud.AppEngine.V1"
+    },
+    "apis/Google.Cloud.ArtifactRegistry.V1": {
+      "component": "Google.Cloud.ArtifactRegistry.V1"
+    },
+    "apis/Google.Cloud.ArtifactRegistry.V1Beta2": {
+      "component": "Google.Cloud.ArtifactRegistry.V1Beta2"
+    },
+    "apis/Google.Cloud.Asset.V1": {
+      "component": "Google.Cloud.Asset.V1"
+    },
+    "apis/Google.Cloud.AssuredWorkloads.V1": {
+      "component": "Google.Cloud.AssuredWorkloads.V1"
+    },
+    "apis/Google.Cloud.AssuredWorkloads.V1Beta1": {
+      "component": "Google.Cloud.AssuredWorkloads.V1Beta1"
+    },
+    "apis/Google.Cloud.Audit": {
+      "component": "Google.Cloud.Audit"
+    },
+    "apis/Google.Cloud.AutoML.V1": {
+      "component": "Google.Cloud.AutoML.V1"
+    },
+    "apis/Google.Cloud.BareMetalSolution.V2": {
+      "component": "Google.Cloud.BareMetalSolution.V2"
+    },
+    "apis/Google.Cloud.Batch.V1": {
+      "component": "Google.Cloud.Batch.V1"
+    },
+    "apis/Google.Cloud.Batch.V1Alpha": {
+      "component": "Google.Cloud.Batch.V1Alpha"
+    },
+    "apis/Google.Cloud.BeyondCorp.AppConnections.V1": {
+      "component": "Google.Cloud.BeyondCorp.AppConnections.V1"
+    },
+    "apis/Google.Cloud.BeyondCorp.AppConnectors.V1": {
+      "component": "Google.Cloud.BeyondCorp.AppConnectors.V1"
+    },
+    "apis/Google.Cloud.BeyondCorp.AppGateways.V1": {
+      "component": "Google.Cloud.BeyondCorp.AppGateways.V1"
+    },
+    "apis/Google.Cloud.BeyondCorp.ClientConnectorServices.V1": {
+      "component": "Google.Cloud.BeyondCorp.ClientConnectorServices.V1"
+    },
+    "apis/Google.Cloud.BeyondCorp.ClientGateways.V1": {
+      "component": "Google.Cloud.BeyondCorp.ClientGateways.V1"
+    },
+    "apis/Google.Cloud.BigQuery.AnalyticsHub.V1": {
+      "component": "Google.Cloud.BigQuery.AnalyticsHub.V1"
+    },
+    "apis/Google.Cloud.BigQuery.Connection.V1": {
+      "component": "Google.Cloud.BigQuery.Connection.V1"
+    },
+    "apis/Google.Cloud.BigQuery.DataExchange.V1Beta1": {
+      "component": "Google.Cloud.BigQuery.DataExchange.V1Beta1"
+    },
+    "apis/Google.Cloud.BigQuery.DataPolicies.V1": {
+      "component": "Google.Cloud.BigQuery.DataPolicies.V1"
+    },
+    "apis/Google.Cloud.BigQuery.DataPolicies.V1Beta1": {
+      "component": "Google.Cloud.BigQuery.DataPolicies.V1Beta1"
+    },
+    "apis/Google.Cloud.BigQuery.DataTransfer.V1": {
+      "component": "Google.Cloud.BigQuery.DataTransfer.V1"
+    },
+    "apis/Google.Cloud.BigQuery.Logging.V1": {
+      "component": "Google.Cloud.BigQuery.Logging.V1"
+    },
+    "apis/Google.Cloud.BigQuery.Migration.V2": {
+      "component": "Google.Cloud.BigQuery.Migration.V2"
+    },
+    "apis/Google.Cloud.BigQuery.Reservation.V1": {
+      "component": "Google.Cloud.BigQuery.Reservation.V1"
+    },
+    "apis/Google.Cloud.BigQuery.V2": {
+      "component": "Google.Cloud.BigQuery.V2"
+    },
+    "apis/Google.Cloud.BigQuery.Storage.V1": {
+      "component": "Google.Cloud.BigQuery.Storage.V1"
+    },
+    "apis/Google.Cloud.Bigtable.Admin.V2": {
+      "component": "Google.Cloud.Bigtable.Admin.V2"
+    },
+    "apis/Google.Cloud.Bigtable.Common.V2": {
+      "component": "Google.Cloud.Bigtable.Common.V2"
+    },
+    "apis/Google.Cloud.Bigtable.V2": {
+      "component": "Google.Cloud.Bigtable.V2"
+    },
+    "apis/Google.Cloud.Billing.Budgets.V1": {
+      "component": "Google.Cloud.Billing.Budgets.V1"
+    },
+    "apis/Google.Cloud.Billing.Budgets.V1Beta1": {
+      "component": "Google.Cloud.Billing.Budgets.V1Beta1"
+    },
+    "apis/Google.Cloud.Billing.V1": {
+      "component": "Google.Cloud.Billing.V1"
+    },
+    "apis/Google.Cloud.BinaryAuthorization.V1": {
+      "component": "Google.Cloud.BinaryAuthorization.V1"
+    },
+    "apis/Google.Cloud.BinaryAuthorization.V1Beta1": {
+      "component": "Google.Cloud.BinaryAuthorization.V1Beta1"
+    },
+    "apis/Google.Cloud.CertificateManager.V1": {
+      "component": "Google.Cloud.CertificateManager.V1"
+    },
+    "apis/Google.Cloud.Channel.V1": {
+      "component": "Google.Cloud.Channel.V1"
+    },
+    "apis/Google.Cloud.CloudBuild.V1": {
+      "component": "Google.Cloud.CloudBuild.V1"
+    },
+    "apis/Google.Cloud.CloudBuild.V2": {
+      "component": "Google.Cloud.CloudBuild.V2"
+    },
+    "apis/Google.Cloud.CloudDms.V1": {
+      "component": "Google.Cloud.CloudDms.V1"
+    },
+    "apis/Google.Cloud.Common": {
+      "component": "Google.Cloud.Common"
+    },
+    "apis/Google.Cloud.Compute.V1": {
+      "component": "Google.Cloud.Compute.V1"
+    },
+    "apis/Google.Cloud.ConfidentialComputing.V1": {
+      "component": "Google.Cloud.ConfidentialComputing.V1"
+    },
+    "apis/Google.Cloud.ConfidentialComputing.V1Alpha1": {
+      "component": "Google.Cloud.ConfidentialComputing.V1Alpha1"
+    },
+    "apis/Google.Cloud.ContactCenterInsights.V1": {
+      "component": "Google.Cloud.ContactCenterInsights.V1"
+    },
+    "apis/Google.Cloud.Container.V1": {
+      "component": "Google.Cloud.Container.V1"
+    },
+    "apis/Google.Cloud.DataCatalog.Lineage.V1": {
+      "component": "Google.Cloud.DataCatalog.Lineage.V1"
+    },
+    "apis/Google.Cloud.DataCatalog.V1": {
+      "component": "Google.Cloud.DataCatalog.V1"
+    },
+    "apis/Google.Cloud.DataFusion.V1": {
+      "component": "Google.Cloud.DataFusion.V1"
+    },
+    "apis/Google.Cloud.DataLabeling.V1Beta1": {
+      "component": "Google.Cloud.DataLabeling.V1Beta1"
+    },
+    "apis/Google.Cloud.DataQnA.V1Alpha": {
+      "component": "Google.Cloud.DataQnA.V1Alpha"
+    },
+    "apis/Google.Cloud.Dataflow.V1Beta3": {
+      "component": "Google.Cloud.Dataflow.V1Beta3"
+    },
+    "apis/Google.Cloud.Dataform.V1Beta1": {
+      "component": "Google.Cloud.Dataform.V1Beta1"
+    },
+    "apis/Google.Cloud.Dataplex.V1": {
+      "component": "Google.Cloud.Dataplex.V1"
+    },
+    "apis/Google.Cloud.Dataproc.V1": {
+      "component": "Google.Cloud.Dataproc.V1"
+    },
+    "apis/Google.Cloud.Datastore.Admin.V1": {
+      "component": "Google.Cloud.Datastore.Admin.V1"
+    },
+    "apis/Google.Cloud.Datastore.V1": {
+      "component": "Google.Cloud.Datastore.V1"
+    },
+    "apis/Google.Cloud.Datastream.V1": {
+      "component": "Google.Cloud.Datastream.V1"
+    },
+    "apis/Google.Cloud.Datastream.V1Alpha1": {
+      "component": "Google.Cloud.Datastream.V1Alpha1"
+    },
+    "apis/Google.Cloud.Debugger.V2": {
+      "component": "Google.Cloud.Debugger.V2"
+    },
+    "apis/Google.Cloud.Deploy.V1": {
+      "component": "Google.Cloud.Deploy.V1"
+    },
+    "apis/Google.Cloud.DevTools.Common": {
+      "component": "Google.Cloud.DevTools.Common"
+    },
+    "apis/Google.Cloud.Dialogflow.Cx.V3": {
+      "component": "Google.Cloud.Dialogflow.Cx.V3"
+    },
+    "apis/Google.Cloud.Dialogflow.V2": {
+      "component": "Google.Cloud.Dialogflow.V2"
+    },
+    "apis/Google.Cloud.Dialogflow.V2Beta1": {
+      "component": "Google.Cloud.Dialogflow.V2Beta1"
+    },
+    "apis/Google.Cloud.DiscoveryEngine.V1Beta": {
+      "component": "Google.Cloud.DiscoveryEngine.V1Beta"
+    },
+    "apis/Google.Cloud.Dlp.V2": {
+      "component": "Google.Cloud.Dlp.V2"
+    },
+    "apis/Google.Cloud.DocumentAI.V1": {
+      "component": "Google.Cloud.DocumentAI.V1"
+    },
+    "apis/Google.Cloud.DocumentAI.V1Beta3": {
+      "component": "Google.Cloud.DocumentAI.V1Beta3"
+    },
+    "apis/Google.Cloud.Domains.V1": {
+      "component": "Google.Cloud.Domains.V1"
+    },
+    "apis/Google.Cloud.Domains.V1Beta1": {
+      "component": "Google.Cloud.Domains.V1Beta1"
+    },
+    "apis/Google.Cloud.EnterpriseKnowledgeGraph.V1": {
+      "component": "Google.Cloud.EnterpriseKnowledgeGraph.V1"
+    },
+    "apis/Google.Cloud.ErrorReporting.V1Beta1": {
+      "component": "Google.Cloud.ErrorReporting.V1Beta1"
+    },
+    "apis/Google.Cloud.EssentialContacts.V1": {
+      "component": "Google.Cloud.EssentialContacts.V1"
+    },
+    "apis/Google.Cloud.Eventarc.Publishing.V1": {
+      "component": "Google.Cloud.Eventarc.Publishing.V1"
+    },
+    "apis/Google.Cloud.Eventarc.V1": {
+      "component": "Google.Cloud.Eventarc.V1"
+    },
+    "apis/Google.Cloud.Filestore.V1": {
+      "component": "Google.Cloud.Filestore.V1"
+    },
+    "apis/Google.Cloud.Firestore.Admin.V1": {
+      "component": "Google.Cloud.Firestore.Admin.V1"
+    },
+    "apis/Google.Cloud.Functions.V1": {
+      "component": "Google.Cloud.Functions.V1"
+    },
+    "apis/Google.Cloud.Functions.V2": {
+      "component": "Google.Cloud.Functions.V2"
+    },
+    "apis/Google.Cloud.Functions.V2Beta": {
+      "component": "Google.Cloud.Functions.V2Beta"
+    },
+    "apis/Google.Cloud.GSuiteAddOns.V1": {
+      "component": "Google.Cloud.GSuiteAddOns.V1"
+    },
+    "apis/Google.Cloud.Gaming.V1": {
+      "component": "Google.Cloud.Gaming.V1"
+    },
+    "apis/Google.Cloud.Gaming.V1Beta": {
+      "component": "Google.Cloud.Gaming.V1Beta"
+    },
+    "apis/Google.Cloud.GkeBackup.V1": {
+      "component": "Google.Cloud.GkeBackup.V1"
+    },
+    "apis/Google.Cloud.GkeConnect.Gateway.V1Beta1": {
+      "component": "Google.Cloud.GkeConnect.Gateway.V1Beta1"
+    },
+    "apis/Google.Cloud.GkeHub.V1Beta1": {
+      "component": "Google.Cloud.GkeHub.V1Beta1"
+    },
+    "apis/Google.Cloud.GkeHub.V1": {
+      "component": "Google.Cloud.GkeHub.V1"
+    },
+    "apis/Google.Cloud.GkeMultiCloud.V1": {
+      "component": "Google.Cloud.GkeMultiCloud.V1"
+    },
+    "apis/Google.Cloud.Iam.Admin.V1": {
+      "component": "Google.Cloud.Iam.Admin.V1"
+    },
+    "apis/Google.Cloud.Iam.Credentials.V1": {
+      "component": "Google.Cloud.Iam.Credentials.V1"
+    },
+    "apis/Google.Cloud.Iam.V1": {
+      "component": "Google.Cloud.Iam.V1"
+    },
+    "apis/Google.Cloud.Iam.V2": {
+      "component": "Google.Cloud.Iam.V2"
+    },
+    "apis/Google.Cloud.Iap.V1": {
+      "component": "Google.Cloud.Iap.V1"
+    },
+    "apis/Google.Cloud.Ids.V1": {
+      "component": "Google.Cloud.Ids.V1"
+    },
+    "apis/Google.Cloud.Iot.V1": {
+      "component": "Google.Cloud.Iot.V1"
+    },
+    "apis/Google.Cloud.Kms.Inventory.V1": {
+      "component": "Google.Cloud.Kms.Inventory.V1"
+    },
+    "apis/Google.Cloud.Kms.V1": {
+      "component": "Google.Cloud.Kms.V1"
+    },
+    "apis/Google.Cloud.Language.V1": {
+      "component": "Google.Cloud.Language.V1"
+    },
+    "apis/Google.Cloud.LifeSciences.V2Beta": {
+      "component": "Google.Cloud.LifeSciences.V2Beta"
+    },
+    "apis/Google.Cloud.Location": {
+      "component": "Google.Cloud.Location"
+    },
+    "apis/Google.Cloud.Logging.Log4Net": {
+      "component": "Google.Cloud.Logging.Log4Net"
+    },
+    "apis/Google.Cloud.Logging.Console": {
+      "component": "Google.Cloud.Logging.Console"
+    },
+    "apis/Google.Cloud.Logging.NLog": {
+      "component": "Google.Cloud.Logging.NLog"
+    },
+    "apis/Google.Cloud.Logging.Type": {
+      "component": "Google.Cloud.Logging.Type"
+    },
+    "apis/Google.Cloud.Logging.V2": {
+      "component": "Google.Cloud.Logging.V2"
+    },
+    "apis/Google.Cloud.ManagedIdentities.V1": {
+      "component": "Google.Cloud.ManagedIdentities.V1"
+    },
+    "apis/Google.Cloud.MediaTranslation.V1Beta1": {
+      "component": "Google.Cloud.MediaTranslation.V1Beta1"
+    },
+    "apis/Google.Cloud.Memcache.V1": {
+      "component": "Google.Cloud.Memcache.V1"
+    },
+    "apis/Google.Cloud.Memcache.V1Beta2": {
+      "component": "Google.Cloud.Memcache.V1Beta2"
+    },
+    "apis/Google.Cloud.Metastore.V1": {
+      "component": "Google.Cloud.Metastore.V1"
+    },
+    "apis/Google.Cloud.Metastore.V1Alpha": {
+      "component": "Google.Cloud.Metastore.V1Alpha"
+    },
+    "apis/Google.Cloud.Metastore.V1Beta": {
+      "component": "Google.Cloud.Metastore.V1Beta"
+    },
+    "apis/Google.Cloud.MigrationCenter.V1": {
+      "component": "Google.Cloud.MigrationCenter.V1"
+    },
+    "apis/Google.Cloud.Monitoring.V3": {
+      "component": "Google.Cloud.Monitoring.V3"
+    },
+    "apis/Google.Cloud.NetworkConnectivity.V1": {
+      "component": "Google.Cloud.NetworkConnectivity.V1"
+    },
+    "apis/Google.Cloud.NetworkConnectivity.V1Alpha1": {
+      "component": "Google.Cloud.NetworkConnectivity.V1Alpha1"
+    },
+    "apis/Google.Cloud.NetworkManagement.V1": {
+      "component": "Google.Cloud.NetworkManagement.V1"
+    },
+    "apis/Google.Cloud.NetworkSecurity.V1Beta1": {
+      "component": "Google.Cloud.NetworkSecurity.V1Beta1"
+    },
+    "apis/Google.Cloud.Notebooks.V1": {
+      "component": "Google.Cloud.Notebooks.V1"
+    },
+    "apis/Google.Cloud.Notebooks.V1Beta1": {
+      "component": "Google.Cloud.Notebooks.V1Beta1"
+    },
+    "apis/Google.Cloud.Optimization.V1": {
+      "component": "Google.Cloud.Optimization.V1"
+    },
+    "apis/Google.Cloud.Orchestration.Airflow.Service.V1": {
+      "component": "Google.Cloud.Orchestration.Airflow.Service.V1"
+    },
+    "apis/Google.Cloud.OrgPolicy.V1": {
+      "component": "Google.Cloud.OrgPolicy.V1"
+    },
+    "apis/Google.Cloud.OrgPolicy.V2": {
+      "component": "Google.Cloud.OrgPolicy.V2"
+    },
+    "apis/Google.Cloud.OsConfig.V1": {
+      "component": "Google.Cloud.OsConfig.V1"
+    },
+    "apis/Google.Cloud.OsConfig.V1Alpha": {
+      "component": "Google.Cloud.OsConfig.V1Alpha"
+    },
+    "apis/Google.Cloud.PhishingProtection.V1Beta1": {
+      "component": "Google.Cloud.PhishingProtection.V1Beta1"
+    },
+    "apis/Google.Cloud.PolicyTroubleshooter.V1": {
+      "component": "Google.Cloud.PolicyTroubleshooter.V1"
+    },
+    "apis/Google.Cloud.PrivateCatalog.V1Beta1": {
+      "component": "Google.Cloud.PrivateCatalog.V1Beta1"
+    },
+    "apis/Google.Cloud.Profiler.V2": {
+      "component": "Google.Cloud.Profiler.V2"
+    },
+    "apis/Google.Cloud.PubSub.V1": {
+      "component": "Google.Cloud.PubSub.V1"
+    },
+    "apis/Google.Cloud.RapidMigrationAssessment.V1": {
+      "component": "Google.Cloud.RapidMigrationAssessment.V1"
+    },
+    "apis/Google.Cloud.RecaptchaEnterprise.V1": {
+      "component": "Google.Cloud.RecaptchaEnterprise.V1"
+    },
+    "apis/Google.Cloud.RecaptchaEnterprise.V1Beta1": {
+      "component": "Google.Cloud.RecaptchaEnterprise.V1Beta1"
+    },
+    "apis/Google.Cloud.RecommendationEngine.V1Beta1": {
+      "component": "Google.Cloud.RecommendationEngine.V1Beta1"
+    },
+    "apis/Google.Cloud.Recommender.V1": {
+      "component": "Google.Cloud.Recommender.V1"
+    },
+    "apis/Google.Cloud.Redis.V1": {
+      "component": "Google.Cloud.Redis.V1"
+    },
+    "apis/Google.Cloud.Redis.V1Beta1": {
+      "component": "Google.Cloud.Redis.V1Beta1"
+    },
+    "apis/Google.Cloud.ResourceManager.V3": {
+      "component": "Google.Cloud.ResourceManager.V3"
+    },
+    "apis/Google.Cloud.ResourceSettings.V1": {
+      "component": "Google.Cloud.ResourceSettings.V1"
+    },
+    "apis/Google.Cloud.Retail.V2": {
+      "component": "Google.Cloud.Retail.V2"
+    },
+    "apis/Google.Cloud.Run.V2": {
+      "component": "Google.Cloud.Run.V2"
+    },
+    "apis/Google.Cloud.Scheduler.V1": {
+      "component": "Google.Cloud.Scheduler.V1"
+    },
+    "apis/Google.Cloud.SecretManager.V1": {
+      "component": "Google.Cloud.SecretManager.V1"
+    },
+    "apis/Google.Cloud.SecretManager.V1Beta1": {
+      "component": "Google.Cloud.SecretManager.V1Beta1"
+    },
+    "apis/Google.Cloud.Security.PrivateCA.V1": {
+      "component": "Google.Cloud.Security.PrivateCA.V1"
+    },
+    "apis/Google.Cloud.Security.PublicCA.V1Beta1": {
+      "component": "Google.Cloud.Security.PublicCA.V1Beta1"
+    },
+    "apis/Google.Cloud.SecurityCenter.Settings.V1Beta1": {
+      "component": "Google.Cloud.SecurityCenter.Settings.V1Beta1"
+    },
+    "apis/Google.Cloud.SecurityCenter.V1": {
+      "component": "Google.Cloud.SecurityCenter.V1"
+    },
+    "apis/Google.Cloud.SecurityCenter.V1P1Beta1": {
+      "component": "Google.Cloud.SecurityCenter.V1P1Beta1"
+    },
+    "apis/Google.Cloud.ServiceControl.V1": {
+      "component": "Google.Cloud.ServiceControl.V1"
+    },
+    "apis/Google.Cloud.ServiceDirectory.V1": {
+      "component": "Google.Cloud.ServiceDirectory.V1"
+    },
+    "apis/Google.Cloud.ServiceDirectory.V1Beta1": {
+      "component": "Google.Cloud.ServiceDirectory.V1Beta1"
+    },
+    "apis/Google.Cloud.ServiceManagement.V1": {
+      "component": "Google.Cloud.ServiceManagement.V1"
+    },
+    "apis/Google.Cloud.ServiceUsage.V1": {
+      "component": "Google.Cloud.ServiceUsage.V1"
+    },
+    "apis/Google.Cloud.Shell.V1": {
+      "component": "Google.Cloud.Shell.V1"
+    },
+    "apis/Google.Cloud.Speech.V1": {
+      "component": "Google.Cloud.Speech.V1"
+    },
+    "apis/Google.Cloud.Speech.V1P1Beta1": {
+      "component": "Google.Cloud.Speech.V1P1Beta1"
+    },
+    "apis/Google.Cloud.Speech.V2": {
+      "component": "Google.Cloud.Speech.V2"
+    },
+    "apis/Google.Cloud.Storage.V1": {
+      "component": "Google.Cloud.Storage.V1"
+    },
+    "apis/Google.Cloud.StorageInsights.V1": {
+      "component": "Google.Cloud.StorageInsights.V1"
+    },
+    "apis/Google.Cloud.StorageTransfer.V1": {
+      "component": "Google.Cloud.StorageTransfer.V1"
+    },
+    "apis/Google.Cloud.Support.V2": {
+      "component": "Google.Cloud.Support.V2"
+    },
+    "apis/Google.Cloud.Talent.V4": {
+      "component": "Google.Cloud.Talent.V4"
+    },
+    "apis/Google.Cloud.Talent.V4Beta1": {
+      "component": "Google.Cloud.Talent.V4Beta1"
+    },
+    "apis/Google.Cloud.Tasks.V2": {
+      "component": "Google.Cloud.Tasks.V2"
+    },
+    "apis/Google.Cloud.Tasks.V2Beta3": {
+      "component": "Google.Cloud.Tasks.V2Beta3"
+    },
+    "apis/Google.Cloud.TextToSpeech.V1": {
+      "component": "Google.Cloud.TextToSpeech.V1"
+    },
+    "apis/Google.Cloud.TextToSpeech.V1Beta1": {
+      "component": "Google.Cloud.TextToSpeech.V1Beta1"
+    },
+    "apis/Google.Cloud.Tpu.V1": {
+      "component": "Google.Cloud.Tpu.V1"
+    },
+    "apis/Google.Cloud.Trace.V1": {
+      "component": "Google.Cloud.Trace.V1"
+    },
+    "apis/Google.Cloud.Trace.V2": {
+      "component": "Google.Cloud.Trace.V2"
+    },
+    "apis/Google.Cloud.Translate.V3": {
+      "component": "Google.Cloud.Translate.V3"
+    },
+    "apis/Google.Cloud.Translation.V2": {
+      "component": "Google.Cloud.Translation.V2"
+    },
+    "apis/Google.Cloud.VMMigration.V1": {
+      "component": "Google.Cloud.VMMigration.V1"
+    },
+    "apis/Google.Cloud.Video.LiveStream.V1": {
+      "component": "Google.Cloud.Video.LiveStream.V1"
+    },
+    "apis/Google.Cloud.Video.Stitcher.V1": {
+      "component": "Google.Cloud.Video.Stitcher.V1"
+    },
+    "apis/Google.Cloud.Video.Transcoder.V1": {
+      "component": "Google.Cloud.Video.Transcoder.V1"
+    },
+    "apis/Google.Cloud.VideoIntelligence.V1": {
+      "component": "Google.Cloud.VideoIntelligence.V1"
+    },
+    "apis/Google.Cloud.Vision.V1": {
+      "component": "Google.Cloud.Vision.V1"
+    },
+    "apis/Google.Cloud.VmwareEngine.V1": {
+      "component": "Google.Cloud.VmwareEngine.V1"
+    },
+    "apis/Google.Cloud.VpcAccess.V1": {
+      "component": "Google.Cloud.VpcAccess.V1"
+    },
+    "apis/Google.Cloud.WebRisk.V1": {
+      "component": "Google.Cloud.WebRisk.V1"
+    },
+    "apis/Google.Cloud.WebRisk.V1Beta1": {
+      "component": "Google.Cloud.WebRisk.V1Beta1"
+    },
+    "apis/Google.Cloud.WebSecurityScanner.V1": {
+      "component": "Google.Cloud.WebSecurityScanner.V1"
+    },
+    "apis/Google.Geo.Type": {
+      "component": "Google.Geo.Type"
+    },
+    "apis/Google.Identity.AccessContextManager.Type": {
+      "component": "Google.Identity.AccessContextManager.Type"
+    },
+    "apis/Google.Identity.AccessContextManager.V1": {
+      "component": "Google.Identity.AccessContextManager.V1"
+    },
+    "apis/Google.LongRunning": {
+      "component": "Google.LongRunning"
+    },
+    "apis/Google.Maps.AddressValidation.V1": {
+      "component": "Google.Maps.AddressValidation.V1"
+    },
+    "apis/Google.Maps.MapsPlatformDatasets.V1Alpha": {
+      "component": "Google.Maps.MapsPlatformDatasets.V1Alpha"
+    },
+    "apis/Google.Maps.Places.V1": {
+      "component": "Google.Maps.Places.V1"
+    },
+    "apis/Google.Maps.Routing.V2": {
+      "component": "Google.Maps.Routing.V2"
+    }
   }
 }
