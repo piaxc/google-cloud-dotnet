@@ -1,5 +1,6 @@
 {
   "release-type": "dotnet-yoshi",
+  "separate-pull-requests": true,
   "packages": {
     "apis/Google.Analytics.Admin.V1Alpha": {
       "component": "Google.Analytics.Admin.V1Alpha"
@@ -235,6 +236,15 @@
     "apis/Google.Cloud.DevTools.Common": {
       "component": "Google.Cloud.DevTools.Common"
     },
+    "apis/Google.Cloud.DevTools.ContainerAnalysis.V1": {
+      "component": "Google.Cloud.DevTools.ContainerAnalysis.V1"
+    },
+    "apis/Google.Cloud.Diagnostics.AspNetCore3": {
+      "component": "Google.Cloud.Diagnostics.AspNetCore3"
+    },
+    "apis/Google.Cloud.Diagnostics.Common": {
+      "component": "Google.Cloud.Diagnostics.Common"
+    },
     "apis/Google.Cloud.Dialogflow.Cx.V3": {
       "component": "Google.Cloud.Dialogflow.Cx.V3"
     },
@@ -279,6 +289,12 @@
     },
     "apis/Google.Cloud.Filestore.V1": {
       "component": "Google.Cloud.Filestore.V1"
+    },
+    "apis/Google.Cloud.Firestore": {
+      "component": "Google.Cloud.Firestore"
+    },
+    "apis/Google.Cloud.Firestore.V1": {
+      "component": "Google.Cloud.Firestore.V1"
     },
     "apis/Google.Cloud.Firestore.Admin.V1": {
       "component": "Google.Cloud.Firestore.Admin.V1"
@@ -430,6 +446,15 @@
     "apis/Google.Cloud.OsConfig.V1Alpha": {
       "component": "Google.Cloud.OsConfig.V1Alpha"
     },
+    "apis/Google.Cloud.OsLogin.Common": {
+      "component": "Google.Cloud.OsLogin.Common"
+    },
+    "apis/Google.Cloud.OsLogin.V1": {
+      "component": "Google.Cloud.OsLogin.V1"
+    },
+    "apis/Google.Cloud.OsLogin.V1Beta": {
+      "component": "Google.Cloud.OsLogin.V1Beta"
+    },
     "apis/Google.Cloud.PhishingProtection.V1Beta1": {
       "component": "Google.Cloud.PhishingProtection.V1Beta1"
     },
@@ -520,6 +545,21 @@
     "apis/Google.Cloud.Shell.V1": {
       "component": "Google.Cloud.Shell.V1"
     },
+    "apis/Google.Cloud.Spanner.Admin.Database.V1": {
+      "component": "Google.Cloud.Spanner.Admin.Database.V1"
+    },
+    "apis/Google.Cloud.Spanner.Admin.Instance.V1": {
+      "component": "Google.Cloud.Spanner.Admin.Instance.V1"
+    },
+    "apis/Google.Cloud.Spanner.Data": {
+      "component": "Google.Cloud.Spanner.Data"
+    },
+    "apis/Google.Cloud.Spanner.Common.V1": {
+      "component": "Google.Cloud.Spanner.Common.V1"
+    },
+    "apis/Google.Cloud.Spanner.V1": {
+      "component": "Google.Cloud.Spanner.V1"
+    },
     "apis/Google.Cloud.Speech.V1": {
       "component": "Google.Cloud.Speech.V1"
     },
@@ -607,6 +647,24 @@
     "apis/Google.Cloud.WebSecurityScanner.V1": {
       "component": "Google.Cloud.WebSecurityScanner.V1"
     },
+    "apis/Google.Cloud.Workflows.Common.V1": {
+      "component": "Google.Cloud.Workflows.Common.V1"
+    },
+    "apis/Google.Cloud.Workflows.Common.V1Beta": {
+      "component": "Google.Cloud.Workflows.Common.V1Beta"
+    },
+    "apis/Google.Cloud.Workflows.Executions.V1": {
+      "component": "Google.Cloud.Workflows.Executions.V1"
+    },
+    "apis/Google.Cloud.Workflows.Executions.V1Beta": {
+      "component": "Google.Cloud.Workflows.Executions.V1Beta"
+    },
+    "apis/Google.Cloud.Workflows.V1": {
+      "component": "Google.Cloud.Workflows.V1"
+    },
+    "apis/Google.Cloud.Workflows.V1Beta": {
+      "component": "Google.Cloud.Workflows.V1Beta"
+    },
     "apis/Google.Geo.Type": {
       "component": "Google.Geo.Type"
     },
@@ -630,6 +688,73 @@
     },
     "apis/Google.Maps.Routing.V2": {
       "component": "Google.Maps.Routing.V2"
+    },
+    "apis/Grafeas.V1": {
+      "component": "Grafeas.V1"
     }
-  }
+  },
+  "plugins": [
+    {
+      "type": "linked-versions",
+      "groupName": "Spanner",
+      "components": [
+        "Google.Cloud.Spanner.Admin.Database.V1",
+        "Google.Cloud.Spanner.Admin.Instance.V1",
+        "Google.Cloud.Spanner.Data",
+        "Google.Cloud.Spanner.Common.V1",
+        "Google.Cloud.Spanner.V1"
+      ]
+    },
+    {
+      "type": "linked-versions",
+      "groupName": "Diagnostics",
+      "components": [
+        "Google.Cloud.Diagnostics.AspNetCore3",
+        "Google.Cloud.Diagnostics.Common"
+      ]
+    },
+    {
+      "type": "linked-versions",
+      "groupName": "Container Analysis",
+      "components": [
+        "Google.Cloud.DevTools.ContainerAnalysis.V1",
+        "Grafeas.V1"
+      ]
+    },
+    {
+      "type": "linked-versions",
+      "groupName": "Firestore",
+      "components": [
+        "Google.Cloud.Firestore",
+        "Google.Cloud.Firestore.V1"
+      ]
+    },
+    {
+      "type": "linked-versions",
+      "groupName": "OS Login",
+      "components": [
+        "Google.Cloud.OsLogin.Common",
+        "Google.Cloud.OsLogin.V1",
+        "Google.Cloud.OsLogin.V1Beta"
+      ]
+    },
+    {
+      "type": "linked-versions",
+      "groupName": "Cloud Workflows V1",
+      "components": [
+        "Google.Cloud.Workflows.Common.V1",
+        "Google.Cloud.Workflows.Executions.V1",
+        "Google.Cloud.Workflows.V1"
+      ]
+    },
+    {
+      "type": "linked-versions",
+      "groupName": "Cloud Workflows V1Beta",
+      "components": [
+        "Google.Cloud.Workflows.Common.V1Beta",
+        "Google.Cloud.Workflows.Executions.V1Beta",
+        "Google.Cloud.Workflows.V1Beta"
+      ]
+    }
+  ]
 }
