@@ -53,48 +53,49 @@ namespace Google.Cloud.AIPlatform.V1 {
             "aXNFbnRyeRILCgNrZXkYASABKAkSDQoFdmFsdWUYAiABKAk6AjgBOmnqQWYK",
             "I2FpcGxhdGZvcm0uZ29vZ2xlYXBpcy5jb20vQ3VzdG9tSm9iEj9wcm9qZWN0",
             "cy97cHJvamVjdH0vbG9jYXRpb25zL3tsb2NhdGlvbn0vY3VzdG9tSm9icy97",
-            "Y3VzdG9tX2pvYn0i4QQKDUN1c3RvbUpvYlNwZWMSSgoRd29ya2VyX3Bvb2xf",
+            "Y3VzdG9tX2pvYn0iiQUKDUN1c3RvbUpvYlNwZWMSSgoRd29ya2VyX3Bvb2xf",
             "c3BlY3MYASADKAsyKi5nb29nbGUuY2xvdWQuYWlwbGF0Zm9ybS52MS5Xb3Jr",
             "ZXJQb29sU3BlY0ID4EECEjoKCnNjaGVkdWxpbmcYAyABKAsyJi5nb29nbGUu",
             "Y2xvdWQuYWlwbGF0Zm9ybS52MS5TY2hlZHVsaW5nEhcKD3NlcnZpY2VfYWNj",
             "b3VudBgEIAEoCRI3CgduZXR3b3JrGAUgASgJQibgQQH6QSAKHmNvbXB1dGUu",
             "Z29vZ2xlYXBpcy5jb20vTmV0d29yaxIfChJyZXNlcnZlZF9pcF9yYW5nZXMY",
             "DSADKAlCA+BBARJJChViYXNlX291dHB1dF9kaXJlY3RvcnkYBiABKAsyKi5n",
-            "b29nbGUuY2xvdWQuYWlwbGF0Zm9ybS52MS5HY3NEZXN0aW5hdGlvbhJCCgt0",
-            "ZW5zb3Jib2FyZBgHIAEoCUIt4EEB+kEnCiVhaXBsYXRmb3JtLmdvb2dsZWFw",
-            "aXMuY29tL1RlbnNvcmJvYXJkEh4KEWVuYWJsZV93ZWJfYWNjZXNzGAogASgI",
-            "QgPgQQESJAoXZW5hYmxlX2Rhc2hib2FyZF9hY2Nlc3MYECABKAhCA+BBARI9",
-            "CgpleHBlcmltZW50GBEgASgJQingQQH6QSMKIWFpcGxhdGZvcm0uZ29vZ2xl",
-            "YXBpcy5jb20vQ29udGV4dBJBCg5leHBlcmltZW50X3J1bhgSIAEoCUIp4EEB",
-            "+kEjCiFhaXBsYXRmb3JtLmdvb2dsZWFwaXMuY29tL0NvbnRleHQihgMKDldv",
-            "cmtlclBvb2xTcGVjEkMKDmNvbnRhaW5lcl9zcGVjGAYgASgLMikuZ29vZ2xl",
-            "LmNsb3VkLmFpcGxhdGZvcm0udjEuQ29udGFpbmVyU3BlY0gAEkwKE3B5dGhv",
-            "bl9wYWNrYWdlX3NwZWMYByABKAsyLS5nb29nbGUuY2xvdWQuYWlwbGF0Zm9y",
-            "bS52MS5QeXRob25QYWNrYWdlU3BlY0gAEkUKDG1hY2hpbmVfc3BlYxgBIAEo",
-            "CzInLmdvb2dsZS5jbG91ZC5haXBsYXRmb3JtLnYxLk1hY2hpbmVTcGVjQgbg",
-            "QQHgQQUSGgoNcmVwbGljYV9jb3VudBgCIAEoA0ID4EEBEj0KCm5mc19tb3Vu",
-            "dHMYBCADKAsyJC5nb29nbGUuY2xvdWQuYWlwbGF0Zm9ybS52MS5OZnNNb3Vu",
-            "dEID4EEBEjcKCWRpc2tfc3BlYxgFIAEoCzIkLmdvb2dsZS5jbG91ZC5haXBs",
-            "YXRmb3JtLnYxLkRpc2tTcGVjQgYKBHRhc2sidwoNQ29udGFpbmVyU3BlYxIW",
-            "CglpbWFnZV91cmkYASABKAlCA+BBAhIPCgdjb21tYW5kGAIgAygJEgwKBGFy",
-            "Z3MYAyADKAkSLwoDZW52GAQgAygLMiIuZ29vZ2xlLmNsb3VkLmFpcGxhdGZv",
-            "cm0udjEuRW52VmFyIqoBChFQeXRob25QYWNrYWdlU3BlYxIfChJleGVjdXRv",
-            "cl9pbWFnZV91cmkYASABKAlCA+BBAhIZCgxwYWNrYWdlX3VyaXMYAiADKAlC",
-            "A+BBAhIaCg1weXRob25fbW9kdWxlGAMgASgJQgPgQQISDAoEYXJncxgEIAMo",
-            "CRIvCgNlbnYYBSADKAsyIi5nb29nbGUuY2xvdWQuYWlwbGF0Zm9ybS52MS5F",
-            "bnZWYXIifQoKU2NoZWR1bGluZxIqCgd0aW1lb3V0GAEgASgLMhkuZ29vZ2xl",
-            "LnByb3RvYnVmLkR1cmF0aW9uEiUKHXJlc3RhcnRfam9iX29uX3dvcmtlcl9y",
-            "ZXN0YXJ0GAMgASgIEhwKD2Rpc2FibGVfcmV0cmllcxgFIAEoCEID4EEBQswB",
-            "Ch5jb20uZ29vZ2xlLmNsb3VkLmFpcGxhdGZvcm0udjFCDkN1c3RvbUpvYlBy",
-            "b3RvUAFaPmNsb3VkLmdvb2dsZS5jb20vZ28vYWlwbGF0Zm9ybS9hcGl2MS9h",
-            "aXBsYXRmb3JtcGI7YWlwbGF0Zm9ybXBiqgIaR29vZ2xlLkNsb3VkLkFJUGxh",
-            "dGZvcm0uVjHKAhpHb29nbGVcQ2xvdWRcQUlQbGF0Zm9ybVxWMeoCHUdvb2ds",
-            "ZTo6Q2xvdWQ6OkFJUGxhdGZvcm06OlYxYgZwcm90bzM="));
+            "b29nbGUuY2xvdWQuYWlwbGF0Zm9ybS52MS5HY3NEZXN0aW5hdGlvbhImCh5w",
+            "cm90ZWN0ZWRfYXJ0aWZhY3RfbG9jYXRpb25faWQYEyABKAkSQgoLdGVuc29y",
+            "Ym9hcmQYByABKAlCLeBBAfpBJwolYWlwbGF0Zm9ybS5nb29nbGVhcGlzLmNv",
+            "bS9UZW5zb3Jib2FyZBIeChFlbmFibGVfd2ViX2FjY2VzcxgKIAEoCEID4EEB",
+            "EiQKF2VuYWJsZV9kYXNoYm9hcmRfYWNjZXNzGBAgASgIQgPgQQESPQoKZXhw",
+            "ZXJpbWVudBgRIAEoCUIp4EEB+kEjCiFhaXBsYXRmb3JtLmdvb2dsZWFwaXMu",
+            "Y29tL0NvbnRleHQSQQoOZXhwZXJpbWVudF9ydW4YEiABKAlCKeBBAfpBIwoh",
+            "YWlwbGF0Zm9ybS5nb29nbGVhcGlzLmNvbS9Db250ZXh0IoYDCg5Xb3JrZXJQ",
+            "b29sU3BlYxJDCg5jb250YWluZXJfc3BlYxgGIAEoCzIpLmdvb2dsZS5jbG91",
+            "ZC5haXBsYXRmb3JtLnYxLkNvbnRhaW5lclNwZWNIABJMChNweXRob25fcGFj",
+            "a2FnZV9zcGVjGAcgASgLMi0uZ29vZ2xlLmNsb3VkLmFpcGxhdGZvcm0udjEu",
+            "UHl0aG9uUGFja2FnZVNwZWNIABJFCgxtYWNoaW5lX3NwZWMYASABKAsyJy5n",
+            "b29nbGUuY2xvdWQuYWlwbGF0Zm9ybS52MS5NYWNoaW5lU3BlY0IG4EEB4EEF",
+            "EhoKDXJlcGxpY2FfY291bnQYAiABKANCA+BBARI9CgpuZnNfbW91bnRzGAQg",
+            "AygLMiQuZ29vZ2xlLmNsb3VkLmFpcGxhdGZvcm0udjEuTmZzTW91bnRCA+BB",
+            "ARI3CglkaXNrX3NwZWMYBSABKAsyJC5nb29nbGUuY2xvdWQuYWlwbGF0Zm9y",
+            "bS52MS5EaXNrU3BlY0IGCgR0YXNrIncKDUNvbnRhaW5lclNwZWMSFgoJaW1h",
+            "Z2VfdXJpGAEgASgJQgPgQQISDwoHY29tbWFuZBgCIAMoCRIMCgRhcmdzGAMg",
+            "AygJEi8KA2VudhgEIAMoCzIiLmdvb2dsZS5jbG91ZC5haXBsYXRmb3JtLnYx",
+            "LkVudlZhciKqAQoRUHl0aG9uUGFja2FnZVNwZWMSHwoSZXhlY3V0b3JfaW1h",
+            "Z2VfdXJpGAEgASgJQgPgQQISGQoMcGFja2FnZV91cmlzGAIgAygJQgPgQQIS",
+            "GgoNcHl0aG9uX21vZHVsZRgDIAEoCUID4EECEgwKBGFyZ3MYBCADKAkSLwoD",
+            "ZW52GAUgAygLMiIuZ29vZ2xlLmNsb3VkLmFpcGxhdGZvcm0udjEuRW52VmFy",
+            "In0KClNjaGVkdWxpbmcSKgoHdGltZW91dBgBIAEoCzIZLmdvb2dsZS5wcm90",
+            "b2J1Zi5EdXJhdGlvbhIlCh1yZXN0YXJ0X2pvYl9vbl93b3JrZXJfcmVzdGFy",
+            "dBgDIAEoCBIcCg9kaXNhYmxlX3JldHJpZXMYBSABKAhCA+BBAULMAQoeY29t",
+            "Lmdvb2dsZS5jbG91ZC5haXBsYXRmb3JtLnYxQg5DdXN0b21Kb2JQcm90b1AB",
+            "Wj5jbG91ZC5nb29nbGUuY29tL2dvL2FpcGxhdGZvcm0vYXBpdjEvYWlwbGF0",
+            "Zm9ybXBiO2FpcGxhdGZvcm1wYqoCGkdvb2dsZS5DbG91ZC5BSVBsYXRmb3Jt",
+            "LlYxygIaR29vZ2xlXENsb3VkXEFJUGxhdGZvcm1cVjHqAh1Hb29nbGU6OkNs",
+            "b3VkOjpBSVBsYXRmb3JtOjpWMWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.FieldBehaviorReflection.Descriptor, global::Google.Api.ResourceReflection.Descriptor, global::Google.Cloud.AIPlatform.V1.EncryptionSpecReflection.Descriptor, global::Google.Cloud.AIPlatform.V1.EnvVarReflection.Descriptor, global::Google.Cloud.AIPlatform.V1.IoReflection.Descriptor, global::Google.Cloud.AIPlatform.V1.JobStateReflection.Descriptor, global::Google.Cloud.AIPlatform.V1.MachineResourcesReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Google.Rpc.StatusReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Google.Cloud.AIPlatform.V1.CustomJob), global::Google.Cloud.AIPlatform.V1.CustomJob.Parser, new[]{ "Name", "DisplayName", "JobSpec", "State", "CreateTime", "StartTime", "EndTime", "UpdateTime", "Error", "Labels", "EncryptionSpec", "WebAccessUris" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Google.Cloud.AIPlatform.V1.CustomJobSpec), global::Google.Cloud.AIPlatform.V1.CustomJobSpec.Parser, new[]{ "WorkerPoolSpecs", "Scheduling", "ServiceAccount", "Network", "ReservedIpRanges", "BaseOutputDirectory", "Tensorboard", "EnableWebAccess", "EnableDashboardAccess", "Experiment", "ExperimentRun" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Google.Cloud.AIPlatform.V1.CustomJobSpec), global::Google.Cloud.AIPlatform.V1.CustomJobSpec.Parser, new[]{ "WorkerPoolSpecs", "Scheduling", "ServiceAccount", "Network", "ReservedIpRanges", "BaseOutputDirectory", "ProtectedArtifactLocationId", "Tensorboard", "EnableWebAccess", "EnableDashboardAccess", "Experiment", "ExperimentRun" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Google.Cloud.AIPlatform.V1.WorkerPoolSpec), global::Google.Cloud.AIPlatform.V1.WorkerPoolSpec.Parser, new[]{ "ContainerSpec", "PythonPackageSpec", "MachineSpec", "ReplicaCount", "NfsMounts", "DiskSpec" }, new[]{ "Task" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Google.Cloud.AIPlatform.V1.ContainerSpec), global::Google.Cloud.AIPlatform.V1.ContainerSpec.Parser, new[]{ "ImageUri", "Command", "Args", "Env" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Google.Cloud.AIPlatform.V1.PythonPackageSpec), global::Google.Cloud.AIPlatform.V1.PythonPackageSpec.Parser, new[]{ "ExecutorImageUri", "PackageUris", "PythonModule", "Args", "Env" }, null, null, null, null),
@@ -851,6 +852,7 @@ namespace Google.Cloud.AIPlatform.V1 {
       network_ = other.network_;
       reservedIpRanges_ = other.reservedIpRanges_.Clone();
       baseOutputDirectory_ = other.baseOutputDirectory_ != null ? other.baseOutputDirectory_.Clone() : null;
+      protectedArtifactLocationId_ = other.protectedArtifactLocationId_;
       tensorboard_ = other.tensorboard_;
       enableWebAccess_ = other.enableWebAccess_;
       enableDashboardAccess_ = other.enableDashboardAccess_;
@@ -998,6 +1000,24 @@ namespace Google.Cloud.AIPlatform.V1 {
       }
     }
 
+    /// <summary>Field number for the "protected_artifact_location_id" field.</summary>
+    public const int ProtectedArtifactLocationIdFieldNumber = 19;
+    private string protectedArtifactLocationId_ = "";
+    /// <summary>
+    /// The ID of the location to store protected artifacts. e.g. us-central1.
+    /// Populate only when the location is different than CustomJob location.
+    /// List of supported locations:
+    /// https://cloud.google.com/vertex-ai/docs/general/locations
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string ProtectedArtifactLocationId {
+      get { return protectedArtifactLocationId_; }
+      set {
+        protectedArtifactLocationId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     /// <summary>Field number for the "tensorboard" field.</summary>
     public const int TensorboardFieldNumber = 7;
     private string tensorboard_ = "";
@@ -1120,6 +1140,7 @@ namespace Google.Cloud.AIPlatform.V1 {
       if (Network != other.Network) return false;
       if(!reservedIpRanges_.Equals(other.reservedIpRanges_)) return false;
       if (!object.Equals(BaseOutputDirectory, other.BaseOutputDirectory)) return false;
+      if (ProtectedArtifactLocationId != other.ProtectedArtifactLocationId) return false;
       if (Tensorboard != other.Tensorboard) return false;
       if (EnableWebAccess != other.EnableWebAccess) return false;
       if (EnableDashboardAccess != other.EnableDashboardAccess) return false;
@@ -1138,6 +1159,7 @@ namespace Google.Cloud.AIPlatform.V1 {
       if (Network.Length != 0) hash ^= Network.GetHashCode();
       hash ^= reservedIpRanges_.GetHashCode();
       if (baseOutputDirectory_ != null) hash ^= BaseOutputDirectory.GetHashCode();
+      if (ProtectedArtifactLocationId.Length != 0) hash ^= ProtectedArtifactLocationId.GetHashCode();
       if (Tensorboard.Length != 0) hash ^= Tensorboard.GetHashCode();
       if (EnableWebAccess != false) hash ^= EnableWebAccess.GetHashCode();
       if (EnableDashboardAccess != false) hash ^= EnableDashboardAccess.GetHashCode();
@@ -1199,6 +1221,10 @@ namespace Google.Cloud.AIPlatform.V1 {
         output.WriteRawTag(146, 1);
         output.WriteString(ExperimentRun);
       }
+      if (ProtectedArtifactLocationId.Length != 0) {
+        output.WriteRawTag(154, 1);
+        output.WriteString(ProtectedArtifactLocationId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1247,6 +1273,10 @@ namespace Google.Cloud.AIPlatform.V1 {
         output.WriteRawTag(146, 1);
         output.WriteString(ExperimentRun);
       }
+      if (ProtectedArtifactLocationId.Length != 0) {
+        output.WriteRawTag(154, 1);
+        output.WriteString(ProtectedArtifactLocationId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1270,6 +1300,9 @@ namespace Google.Cloud.AIPlatform.V1 {
       size += reservedIpRanges_.CalculateSize(_repeated_reservedIpRanges_codec);
       if (baseOutputDirectory_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(BaseOutputDirectory);
+      }
+      if (ProtectedArtifactLocationId.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(ProtectedArtifactLocationId);
       }
       if (Tensorboard.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Tensorboard);
@@ -1317,6 +1350,9 @@ namespace Google.Cloud.AIPlatform.V1 {
           BaseOutputDirectory = new global::Google.Cloud.AIPlatform.V1.GcsDestination();
         }
         BaseOutputDirectory.MergeFrom(other.BaseOutputDirectory);
+      }
+      if (other.ProtectedArtifactLocationId.Length != 0) {
+        ProtectedArtifactLocationId = other.ProtectedArtifactLocationId;
       }
       if (other.Tensorboard.Length != 0) {
         Tensorboard = other.Tensorboard;
@@ -1398,6 +1434,10 @@ namespace Google.Cloud.AIPlatform.V1 {
             ExperimentRun = input.ReadString();
             break;
           }
+          case 154: {
+            ProtectedArtifactLocationId = input.ReadString();
+            break;
+          }
         }
       }
     #endif
@@ -1461,6 +1501,10 @@ namespace Google.Cloud.AIPlatform.V1 {
           }
           case 146: {
             ExperimentRun = input.ReadString();
+            break;
+          }
+          case 154: {
+            ProtectedArtifactLocationId = input.ReadString();
             break;
           }
         }

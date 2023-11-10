@@ -7944,6 +7944,8 @@ namespace Google.Cloud.AIPlatform.V1 {
   /// <summary>
   /// Request message for
   /// [FeaturestoreService.CreateFeature][google.cloud.aiplatform.v1.FeaturestoreService.CreateFeature].
+  /// Request message for
+  /// [FeatureRegistryService.CreateFeature][google.cloud.aiplatform.v1.FeatureRegistryService.CreateFeature].
   /// </summary>
   public sealed partial class CreateFeatureRequest : pb::IMessage<CreateFeatureRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -7995,9 +7997,11 @@ namespace Google.Cloud.AIPlatform.V1 {
     public const int ParentFieldNumber = 1;
     private string parent_ = "";
     /// <summary>
-    /// Required. The resource name of the EntityType to create a Feature.
-    /// Format:
+    /// Required. The resource name of the EntityType or FeatureGroup to create a
+    /// Feature. Format for entity_type as parent:
     /// `projects/{project}/locations/{location}/featurestores/{featurestore}/entityTypes/{entity_type}`
+    /// Format for feature_group as parent:
+    /// `projects/{project}/locations/{location}/featureGroups/{feature_group}`
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -8033,7 +8037,7 @@ namespace Google.Cloud.AIPlatform.V1 {
     /// This value may be up to 128 characters, and valid characters are
     /// `[a-z0-9_]`. The first character cannot be a number.
     ///
-    /// The value must be unique within an EntityType.
+    /// The value must be unique within an EntityType/FeatureGroup.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -8653,6 +8657,8 @@ namespace Google.Cloud.AIPlatform.V1 {
   /// <summary>
   /// Request message for
   /// [FeaturestoreService.GetFeature][google.cloud.aiplatform.v1.FeaturestoreService.GetFeature].
+  /// Request message for
+  /// [FeatureRegistryService.GetFeature][google.cloud.aiplatform.v1.FeatureRegistryService.GetFeature].
   /// </summary>
   public sealed partial class GetFeatureRequest : pb::IMessage<GetFeatureRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -8703,8 +8709,10 @@ namespace Google.Cloud.AIPlatform.V1 {
     private string name_ = "";
     /// <summary>
     /// Required. The name of the Feature resource.
-    /// Format:
+    /// Format for entity_type as parent:
     /// `projects/{project}/locations/{location}/featurestores/{featurestore}/entityTypes/{entity_type}`
+    /// Format for feature_group as parent:
+    /// `projects/{project}/locations/{location}/featureGroups/{feature_group}`
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -8851,6 +8859,8 @@ namespace Google.Cloud.AIPlatform.V1 {
   /// <summary>
   /// Request message for
   /// [FeaturestoreService.ListFeatures][google.cloud.aiplatform.v1.FeaturestoreService.ListFeatures].
+  /// Request message for
+  /// [FeatureRegistryService.ListFeatures][google.cloud.aiplatform.v1.FeatureRegistryService.ListFeatures].
   /// </summary>
   public sealed partial class ListFeaturesRequest : pb::IMessage<ListFeaturesRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -8907,8 +8917,10 @@ namespace Google.Cloud.AIPlatform.V1 {
     private string parent_ = "";
     /// <summary>
     /// Required. The resource name of the Location to list Features.
-    /// Format:
+    /// Format for entity_type as parent:
     /// `projects/{project}/locations/{location}/featurestores/{featurestore}/entityTypes/{entity_type}`
+    /// Format for feature_group as parent:
+    /// `projects/{project}/locations/{location}/featureGroups/{feature_group}`
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -8977,10 +8989,14 @@ namespace Google.Cloud.AIPlatform.V1 {
     /// <summary>
     /// A page token, received from a previous
     /// [FeaturestoreService.ListFeatures][google.cloud.aiplatform.v1.FeaturestoreService.ListFeatures]
+    /// call or
+    /// [FeatureRegistryService.ListFeatures][google.cloud.aiplatform.v1.FeatureRegistryService.ListFeatures]
     /// call. Provide this to retrieve the subsequent page.
     ///
     /// When paginating, all other parameters provided to
     /// [FeaturestoreService.ListFeatures][google.cloud.aiplatform.v1.FeaturestoreService.ListFeatures]
+    /// or or
+    /// [FeatureRegistryService.ListFeatures][google.cloud.aiplatform.v1.FeatureRegistryService.ListFeatures]
     /// must match the call that provided the page token.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -9001,7 +9017,7 @@ namespace Google.Cloud.AIPlatform.V1 {
     /// Supported fields:
     ///
     ///   * `feature_id`
-    ///   * `value_type`
+    ///   * `value_type` (Not supported for FeatureRegistry Feature)
     ///   * `create_time`
     ///   * `update_time`
     /// </summary>
@@ -9033,6 +9049,7 @@ namespace Google.Cloud.AIPlatform.V1 {
     public const int LatestStatsCountFieldNumber = 7;
     private int latestStatsCount_;
     /// <summary>
+    /// Only applicable for Vertex AI Feature Store (Legacy).
     /// If set, return the most recent
     /// [ListFeaturesRequest.latest_stats_count][google.cloud.aiplatform.v1.ListFeaturesRequest.latest_stats_count]
     /// of stats for each Feature in response. Valid value is [0, 10]. If number of
@@ -9338,6 +9355,8 @@ namespace Google.Cloud.AIPlatform.V1 {
   /// <summary>
   /// Response message for
   /// [FeaturestoreService.ListFeatures][google.cloud.aiplatform.v1.FeaturestoreService.ListFeatures].
+  /// Response message for
+  /// [FeatureRegistryService.ListFeatures][google.cloud.aiplatform.v1.FeatureRegistryService.ListFeatures].
   /// </summary>
   public sealed partial class ListFeaturesResponse : pb::IMessage<ListFeaturesResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -10187,6 +10206,8 @@ namespace Google.Cloud.AIPlatform.V1 {
   /// <summary>
   /// Request message for
   /// [FeaturestoreService.UpdateFeature][google.cloud.aiplatform.v1.FeaturestoreService.UpdateFeature].
+  /// Request message for
+  /// [FeatureRegistryService.UpdateFeature][google.cloud.aiplatform.v1.FeatureRegistryService.UpdateFeature].
   /// </summary>
   public sealed partial class UpdateFeatureRequest : pb::IMessage<UpdateFeatureRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -10241,6 +10262,7 @@ namespace Google.Cloud.AIPlatform.V1 {
     /// updated.
     /// Format:
     /// `projects/{project}/locations/{location}/featurestores/{featurestore}/entityTypes/{entity_type}/features/{feature}`
+    /// `projects/{project}/locations/{location}/featureGroups/{feature_group}/features/{feature}`
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -10267,7 +10289,7 @@ namespace Google.Cloud.AIPlatform.V1 {
     ///
     ///   * `description`
     ///   * `labels`
-    ///   * `disable_monitoring`
+    ///   * `disable_monitoring` (Not supported for FeatureRegistry Feature)
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -10456,6 +10478,8 @@ namespace Google.Cloud.AIPlatform.V1 {
   /// <summary>
   /// Request message for
   /// [FeaturestoreService.DeleteFeature][google.cloud.aiplatform.v1.FeaturestoreService.DeleteFeature].
+  /// Request message for
+  /// [FeatureRegistryService.DeleteFeature][google.cloud.aiplatform.v1.FeatureRegistryService.DeleteFeature].
   /// </summary>
   public sealed partial class DeleteFeatureRequest : pb::IMessage<DeleteFeatureRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -10508,6 +10532,7 @@ namespace Google.Cloud.AIPlatform.V1 {
     /// Required. The name of the Features to be deleted.
     /// Format:
     /// `projects/{project}/locations/{location}/featurestores/{featurestore}/entityTypes/{entity_type}/features/{feature}`
+    /// `projects/{project}/locations/{location}/featureGroups/{feature_group}/features/{feature}`
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
