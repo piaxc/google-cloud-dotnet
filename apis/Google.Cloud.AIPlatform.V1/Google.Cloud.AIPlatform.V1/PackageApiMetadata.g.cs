@@ -134,6 +134,7 @@ namespace Google.Cloud.AIPlatform.V1
             yield return JobServiceReflection.Descriptor;
             yield return JobStateReflection.Descriptor;
             yield return LineageSubgraphReflection.Descriptor;
+            yield return LlmUtilityServiceReflection.Descriptor;
             yield return MachineResourcesReflection.Descriptor;
             yield return ManualBatchTuningParametersReflection.Descriptor;
             yield return MatchServiceReflection.Descriptor;

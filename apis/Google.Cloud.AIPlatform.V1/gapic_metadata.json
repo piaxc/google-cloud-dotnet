@@ -839,6 +839,27 @@
         }
       }
     },
+    "LlmUtilityService": {
+      "clients": {
+        "grpc": {
+          "libraryClient": "LlmUtilityServiceClient",
+          "rpcs": {
+            "ComputeTokens": {
+              "methods": [
+                "ComputeTokens",
+                "ComputeTokensAsync"
+              ]
+            },
+            "CountTokens": {
+              "methods": [
+                "CountTokens",
+                "CountTokensAsync"
+              ]
+            }
+          }
+        }
+      }
+    },
     "MatchService": {
       "clients": {
         "grpc": {
