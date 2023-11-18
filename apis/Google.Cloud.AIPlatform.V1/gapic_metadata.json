@@ -1309,6 +1309,18 @@
         "grpc": {
           "libraryClient": "PredictionServiceClient",
           "rpcs": {
+            "DirectPredict": {
+              "methods": [
+                "DirectPredict",
+                "DirectPredictAsync"
+              ]
+            },
+            "DirectRawPredict": {
+              "methods": [
+                "DirectRawPredict",
+                "DirectRawPredictAsync"
+              ]
+            },
             "Explain": {
               "methods": [
                 "Explain",
@@ -1331,6 +1343,18 @@
               "methods": [
                 "ServerStreamingPredict",
                 "ServerStreamingPredictAsync"
+              ]
+            },
+            "StreamingPredict": {
+              "methods": [
+                "StreamingPredict",
+                "StreamingPredictAsync"
+              ]
+            },
+            "StreamingRawPredict": {
+              "methods": [
+                "StreamingRawPredict",
+                "StreamingRawPredictAsync"
               ]
             }
           }

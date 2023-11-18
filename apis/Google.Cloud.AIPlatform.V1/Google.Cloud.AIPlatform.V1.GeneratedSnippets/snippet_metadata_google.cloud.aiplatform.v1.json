@@ -57277,6 +57277,248 @@
       ]
     },
     {
+      "regionTag": "aiplatform_v1_generated_PredictionService_DirectPredict_sync",
+      "title": "DirectPredictRequestObject",
+      "description": "Snippet for DirectPredict",
+      "file": "PredictionServiceClient.DirectPredictRequestObjectSnippet.g.cs",
+      "language": "C_SHARP",
+      "clientMethod": {
+        "shortName": "DirectPredict",
+        "fullName": "Google.Cloud.AIPlatform.V1.PredictionServiceClient.DirectPredict",
+        "parameters": [
+          {
+            "type": "Google.Cloud.AIPlatform.V1.DirectPredictRequest",
+            "name": "request"
+          },
+          {
+            "type": "Google.Api.Gax.Grpc.CallSettings",
+            "name": "callSettings"
+          }
+        ],
+        "resultType": "Google.Cloud.AIPlatform.V1.DirectPredictResponse",
+        "client": {
+          "shortName": "PredictionServiceClient",
+          "fullName": "Google.Cloud.AIPlatform.V1.PredictionServiceClient"
+        },
+        "method": {
+          "shortName": "DirectPredict",
+          "fullName": "google.cloud.aiplatform.v1.PredictionService.DirectPredict",
+          "service": {
+            "shortName": "PredictionService",
+            "fullName": "google.cloud.aiplatform.v1.PredictionService"
+          }
+        }
+      },
+      "canonical": true,
+      "origin": "API_DEFINITION",
+      "segments": [
+        {
+          "start": 20,
+          "end": 46,
+          "type": "FULL"
+        },
+        {
+          "start": 34,
+          "end": 44,
+          "type": "SHORT"
+        }
+      ]
+    },
+    {
+      "regionTag": "aiplatform_v1_generated_PredictionService_DirectPredict_async",
+      "title": "DirectPredictRequestObjectAsync",
+      "description": "Snippet for DirectPredictAsync",
+      "file": "PredictionServiceClient.DirectPredictRequestObjectAsyncSnippet.g.cs",
+      "language": "C_SHARP",
+      "clientMethod": {
+        "shortName": "DirectPredictAsync",
+        "fullName": "Google.Cloud.AIPlatform.V1.PredictionServiceClient.DirectPredictAsync",
+        "async": true,
+        "parameters": [
+          {
+            "type": "Google.Cloud.AIPlatform.V1.DirectPredictRequest",
+            "name": "request"
+          },
+          {
+            "type": "Google.Api.Gax.Grpc.CallSettings",
+            "name": "callSettings"
+          }
+        ],
+        "resultType": "System.Threading.Tasks.Task<Google.Cloud.AIPlatform.V1.DirectPredictResponse>",
+        "client": {
+          "shortName": "PredictionServiceClient",
+          "fullName": "Google.Cloud.AIPlatform.V1.PredictionServiceClient"
+        },
+        "method": {
+          "shortName": "DirectPredict",
+          "fullName": "google.cloud.aiplatform.v1.PredictionService.DirectPredict",
+          "service": {
+            "shortName": "PredictionService",
+            "fullName": "google.cloud.aiplatform.v1.PredictionService"
+          }
+        }
+      },
+      "canonical": true,
+      "origin": "API_DEFINITION",
+      "segments": [
+        {
+          "start": 20,
+          "end": 47,
+          "type": "FULL"
+        },
+        {
+          "start": 35,
+          "end": 45,
+          "type": "SHORT"
+        }
+      ]
+    },
+    {
+      "regionTag": "aiplatform_v1_generated_PredictionService_DirectRawPredict_sync",
+      "title": "DirectRawPredictRequestObject",
+      "description": "Snippet for DirectRawPredict",
+      "file": "PredictionServiceClient.DirectRawPredictRequestObjectSnippet.g.cs",
+      "language": "C_SHARP",
+      "clientMethod": {
+        "shortName": "DirectRawPredict",
+        "fullName": "Google.Cloud.AIPlatform.V1.PredictionServiceClient.DirectRawPredict",
+        "parameters": [
+          {
+            "type": "Google.Cloud.AIPlatform.V1.DirectRawPredictRequest",
+            "name": "request"
+          },
+          {
+            "type": "Google.Api.Gax.Grpc.CallSettings",
+            "name": "callSettings"
+          }
+        ],
+        "resultType": "Google.Cloud.AIPlatform.V1.DirectRawPredictResponse",
+        "client": {
+          "shortName": "PredictionServiceClient",
+          "fullName": "Google.Cloud.AIPlatform.V1.PredictionServiceClient"
+        },
+        "method": {
+          "shortName": "DirectRawPredict",
+          "fullName": "google.cloud.aiplatform.v1.PredictionService.DirectRawPredict",
+          "service": {
+            "shortName": "PredictionService",
+            "fullName": "google.cloud.aiplatform.v1.PredictionService"
+          }
+        }
+      },
+      "canonical": true,
+      "origin": "API_DEFINITION",
+      "segments": [
+        {
+          "start": 20,
+          "end": 47,
+          "type": "FULL"
+        },
+        {
+          "start": 35,
+          "end": 45,
+          "type": "SHORT"
+        }
+      ]
+    },
+    {
+      "regionTag": "aiplatform_v1_generated_PredictionService_DirectRawPredict_async",
+      "title": "DirectRawPredictRequestObjectAsync",
+      "description": "Snippet for DirectRawPredictAsync",
+      "file": "PredictionServiceClient.DirectRawPredictRequestObjectAsyncSnippet.g.cs",
+      "language": "C_SHARP",
+      "clientMethod": {
+        "shortName": "DirectRawPredictAsync",
+        "fullName": "Google.Cloud.AIPlatform.V1.PredictionServiceClient.DirectRawPredictAsync",
+        "async": true,
+        "parameters": [
+          {
+            "type": "Google.Cloud.AIPlatform.V1.DirectRawPredictRequest",
+            "name": "request"
+          },
+          {
+            "type": "Google.Api.Gax.Grpc.CallSettings",
+            "name": "callSettings"
+          }
+        ],
+        "resultType": "System.Threading.Tasks.Task<Google.Cloud.AIPlatform.V1.DirectRawPredictResponse>",
+        "client": {
+          "shortName": "PredictionServiceClient",
+          "fullName": "Google.Cloud.AIPlatform.V1.PredictionServiceClient"
+        },
+        "method": {
+          "shortName": "DirectRawPredict",
+          "fullName": "google.cloud.aiplatform.v1.PredictionService.DirectRawPredict",
+          "service": {
+            "shortName": "PredictionService",
+            "fullName": "google.cloud.aiplatform.v1.PredictionService"
+          }
+        }
+      },
+      "canonical": true,
+      "origin": "API_DEFINITION",
+      "segments": [
+        {
+          "start": 20,
+          "end": 48,
+          "type": "FULL"
+        },
+        {
+          "start": 36,
+          "end": 46,
+          "type": "SHORT"
+        }
+      ]
+    },
+    {
+      "regionTag": "aiplatform_v1_generated_PredictionService_StreamingPredict_sync",
+      "title": "StreamingPredict",
+      "description": "Snippet for StreamingPredict",
+      "file": "PredictionServiceClient.StreamingPredictSnippet.g.cs",
+      "language": "C_SHARP",
+      "clientMethod": {
+        "shortName": "StreamingPredict",
+        "fullName": "Google.Cloud.AIPlatform.V1.PredictionServiceClient.StreamingPredict",
+        "parameters": [
+          {
+            "type": "Google.Api.Gax.Grpc.CallSettings",
+            "name": "callSettings"
+          },
+          {
+            "type": "Google.Api.Gax.Grpc.BidirectionalStreamingSettings",
+            "name": "streamingSettings"
+          }
+        ],
+        "resultType": "Google.Cloud.AIPlatform.V1.PredictionServiceClient+StreamingPredictStream",
+        "client": {
+          "shortName": "PredictionServiceClient",
+          "fullName": "Google.Cloud.AIPlatform.V1.PredictionServiceClient"
+        },
+        "method": {
+          "shortName": "StreamingPredict",
+          "fullName": "google.cloud.aiplatform.v1.PredictionService.StreamingPredict",
+          "service": {
+            "shortName": "PredictionService",
+            "fullName": "google.cloud.aiplatform.v1.PredictionService"
+          }
+        }
+      },
+      "canonical": true,
+      "origin": "API_DEFINITION",
+      "segments": [
+        {
+          "start": 20,
+          "end": 79,
+          "type": "FULL"
+        },
+        {
+          "start": 36,
+          "end": 77,
+          "type": "SHORT"
+        }
+      ]
+    },
+    {
       "regionTag": "aiplatform_v1_generated_PredictionService_ServerStreamingPredict_sync",
       "title": "ServerStreamingPredictRequestObject",
       "description": "Snippet for ServerStreamingPredict",
@@ -57320,6 +57562,54 @@
         {
           "start": 36,
           "end": 56,
+          "type": "SHORT"
+        }
+      ]
+    },
+    {
+      "regionTag": "aiplatform_v1_generated_PredictionService_StreamingRawPredict_sync",
+      "title": "StreamingRawPredict",
+      "description": "Snippet for StreamingRawPredict",
+      "file": "PredictionServiceClient.StreamingRawPredictSnippet.g.cs",
+      "language": "C_SHARP",
+      "clientMethod": {
+        "shortName": "StreamingRawPredict",
+        "fullName": "Google.Cloud.AIPlatform.V1.PredictionServiceClient.StreamingRawPredict",
+        "parameters": [
+          {
+            "type": "Google.Api.Gax.Grpc.CallSettings",
+            "name": "callSettings"
+          },
+          {
+            "type": "Google.Api.Gax.Grpc.BidirectionalStreamingSettings",
+            "name": "streamingSettings"
+          }
+        ],
+        "resultType": "Google.Cloud.AIPlatform.V1.PredictionServiceClient+StreamingRawPredictStream",
+        "client": {
+          "shortName": "PredictionServiceClient",
+          "fullName": "Google.Cloud.AIPlatform.V1.PredictionServiceClient"
+        },
+        "method": {
+          "shortName": "StreamingRawPredict",
+          "fullName": "google.cloud.aiplatform.v1.PredictionService.StreamingRawPredict",
+          "service": {
+            "shortName": "PredictionService",
+            "fullName": "google.cloud.aiplatform.v1.PredictionService"
+          }
+        }
+      },
+      "canonical": true,
+      "origin": "API_DEFINITION",
+      "segments": [
+        {
+          "start": 20,
+          "end": 80,
+          "type": "FULL"
+        },
+        {
+          "start": 37,
+          "end": 78,
           "type": "SHORT"
         }
       ]

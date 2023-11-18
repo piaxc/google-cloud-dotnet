@@ -84,32 +84,33 @@ namespace Google.Cloud.AIPlatform.V1 {
             "YXJnZU1vZGVsUmVmZXJlbmNlEhEKBG5hbWUYASABKAlCA+BBAiJ7Cg9QcmVk",
             "aWN0U2NoZW1hdGESIAoTaW5zdGFuY2Vfc2NoZW1hX3VyaRgBIAEoCUID4EEF",
             "EiIKFXBhcmFtZXRlcnNfc2NoZW1hX3VyaRgCIAEoCUID4EEFEiIKFXByZWRp",
-            "Y3Rpb25fc2NoZW1hX3VyaRgDIAEoCUID4EEFItgDChJNb2RlbENvbnRhaW5l",
+            "Y3Rpb25fc2NoZW1hX3VyaRgDIAEoCUID4EEFIpMEChJNb2RlbENvbnRhaW5l",
             "clNwZWMSGQoJaW1hZ2VfdXJpGAEgASgJQgbgQQLgQQUSFAoHY29tbWFuZBgC",
             "IAMoCUID4EEFEhEKBGFyZ3MYAyADKAlCA+BBBRI0CgNlbnYYBCADKAsyIi5n",
             "b29nbGUuY2xvdWQuYWlwbGF0Zm9ybS52MS5FbnZWYXJCA+BBBRI0CgVwb3J0",
             "cxgFIAMoCzIgLmdvb2dsZS5jbG91ZC5haXBsYXRmb3JtLnYxLlBvcnRCA+BB",
             "BRIaCg1wcmVkaWN0X3JvdXRlGAYgASgJQgPgQQUSGQoMaGVhbHRoX3JvdXRl",
-            "GAcgASgJQgPgQQUSOgoSZGVwbG95bWVudF90aW1lb3V0GAogASgLMhkuZ29v",
-            "Z2xlLnByb3RvYnVmLkR1cmF0aW9uQgPgQQUSIgoVc2hhcmVkX21lbW9yeV9z",
-            "aXplX21iGAsgASgDQgPgQQUSPQoNc3RhcnR1cF9wcm9iZRgMIAEoCzIhLmdv",
-            "b2dsZS5jbG91ZC5haXBsYXRmb3JtLnYxLlByb2JlQgPgQQUSPAoMaGVhbHRo",
-            "X3Byb2JlGA0gASgLMiEuZ29vZ2xlLmNsb3VkLmFpcGxhdGZvcm0udjEuUHJv",
-            "YmVCA+BBBSIeCgRQb3J0EhYKDmNvbnRhaW5lcl9wb3J0GAMgASgFIuYBCg9N",
-            "b2RlbFNvdXJjZUluZm8SUAoLc291cmNlX3R5cGUYASABKA4yOy5nb29nbGUu",
-            "Y2xvdWQuYWlwbGF0Zm9ybS52MS5Nb2RlbFNvdXJjZUluZm8uTW9kZWxTb3Vy",
-            "Y2VUeXBlEgwKBGNvcHkYAiABKAgicwoPTW9kZWxTb3VyY2VUeXBlEiEKHU1P",
-            "REVMX1NPVVJDRV9UWVBFX1VOU1BFQ0lGSUVEEAASCgoGQVVUT01MEAESCgoG",
-            "Q1VTVE9NEAISCAoEQlFNTBADEhAKDE1PREVMX0dBUkRFThAEEgkKBUdFTklF",
-            "EAUiowEKBVByb2JlEjwKBGV4ZWMYASABKAsyLC5nb29nbGUuY2xvdWQuYWlw",
-            "bGF0Zm9ybS52MS5Qcm9iZS5FeGVjQWN0aW9uSAASFgoOcGVyaW9kX3NlY29u",
-            "ZHMYAiABKAUSFwoPdGltZW91dF9zZWNvbmRzGAMgASgFGh0KCkV4ZWNBY3Rp",
-            "b24SDwoHY29tbWFuZBgBIAMoCUIMCgpwcm9iZV90eXBlQsgBCh5jb20uZ29v",
-            "Z2xlLmNsb3VkLmFpcGxhdGZvcm0udjFCCk1vZGVsUHJvdG9QAVo+Y2xvdWQu",
-            "Z29vZ2xlLmNvbS9nby9haXBsYXRmb3JtL2FwaXYxL2FpcGxhdGZvcm1wYjth",
-            "aXBsYXRmb3JtcGKqAhpHb29nbGUuQ2xvdWQuQUlQbGF0Zm9ybS5WMcoCGkdv",
-            "b2dsZVxDbG91ZFxBSVBsYXRmb3JtXFYx6gIdR29vZ2xlOjpDbG91ZDo6QUlQ",
-            "bGF0Zm9ybTo6VjFiBnByb3RvMw=="));
+            "GAcgASgJQgPgQQUSOQoKZ3JwY19wb3J0cxgJIAMoCzIgLmdvb2dsZS5jbG91",
+            "ZC5haXBsYXRmb3JtLnYxLlBvcnRCA+BBBRI6ChJkZXBsb3ltZW50X3RpbWVv",
+            "dXQYCiABKAsyGS5nb29nbGUucHJvdG9idWYuRHVyYXRpb25CA+BBBRIiChVz",
+            "aGFyZWRfbWVtb3J5X3NpemVfbWIYCyABKANCA+BBBRI9Cg1zdGFydHVwX3By",
+            "b2JlGAwgASgLMiEuZ29vZ2xlLmNsb3VkLmFpcGxhdGZvcm0udjEuUHJvYmVC",
+            "A+BBBRI8CgxoZWFsdGhfcHJvYmUYDSABKAsyIS5nb29nbGUuY2xvdWQuYWlw",
+            "bGF0Zm9ybS52MS5Qcm9iZUID4EEFIh4KBFBvcnQSFgoOY29udGFpbmVyX3Bv",
+            "cnQYAyABKAUi5gEKD01vZGVsU291cmNlSW5mbxJQCgtzb3VyY2VfdHlwZRgB",
+            "IAEoDjI7Lmdvb2dsZS5jbG91ZC5haXBsYXRmb3JtLnYxLk1vZGVsU291cmNl",
+            "SW5mby5Nb2RlbFNvdXJjZVR5cGUSDAoEY29weRgCIAEoCCJzCg9Nb2RlbFNv",
+            "dXJjZVR5cGUSIQodTU9ERUxfU09VUkNFX1RZUEVfVU5TUEVDSUZJRUQQABIK",
+            "CgZBVVRPTUwQARIKCgZDVVNUT00QAhIICgRCUU1MEAMSEAoMTU9ERUxfR0FS",
+            "REVOEAQSCQoFR0VOSUUQBSKjAQoFUHJvYmUSPAoEZXhlYxgBIAEoCzIsLmdv",
+            "b2dsZS5jbG91ZC5haXBsYXRmb3JtLnYxLlByb2JlLkV4ZWNBY3Rpb25IABIW",
+            "Cg5wZXJpb2Rfc2Vjb25kcxgCIAEoBRIXCg90aW1lb3V0X3NlY29uZHMYAyAB",
+            "KAUaHQoKRXhlY0FjdGlvbhIPCgdjb21tYW5kGAEgAygJQgwKCnByb2JlX3R5",
+            "cGVCyAEKHmNvbS5nb29nbGUuY2xvdWQuYWlwbGF0Zm9ybS52MUIKTW9kZWxQ",
+            "cm90b1ABWj5jbG91ZC5nb29nbGUuY29tL2dvL2FpcGxhdGZvcm0vYXBpdjEv",
+            "YWlwbGF0Zm9ybXBiO2FpcGxhdGZvcm1wYqoCGkdvb2dsZS5DbG91ZC5BSVBs",
+            "YXRmb3JtLlYxygIaR29vZ2xlXENsb3VkXEFJUGxhdGZvcm1cVjHqAh1Hb29n",
+            "bGU6OkNsb3VkOjpBSVBsYXRmb3JtOjpWMWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.FieldBehaviorReflection.Descriptor, global::Google.Api.ResourceReflection.Descriptor, global::Google.Cloud.AIPlatform.V1.DeployedModelRefReflection.Descriptor, global::Google.Cloud.AIPlatform.V1.EncryptionSpecReflection.Descriptor, global::Google.Cloud.AIPlatform.V1.EnvVarReflection.Descriptor, global::Google.Cloud.AIPlatform.V1.ExplanationReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.StructReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -118,7 +119,7 @@ namespace Google.Cloud.AIPlatform.V1 {
             null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Google.Cloud.AIPlatform.V1.LargeModelReference), global::Google.Cloud.AIPlatform.V1.LargeModelReference.Parser, new[]{ "Name" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Google.Cloud.AIPlatform.V1.PredictSchemata), global::Google.Cloud.AIPlatform.V1.PredictSchemata.Parser, new[]{ "InstanceSchemaUri", "ParametersSchemaUri", "PredictionSchemaUri" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Google.Cloud.AIPlatform.V1.ModelContainerSpec), global::Google.Cloud.AIPlatform.V1.ModelContainerSpec.Parser, new[]{ "ImageUri", "Command", "Args", "Env", "Ports", "PredictRoute", "HealthRoute", "DeploymentTimeout", "SharedMemorySizeMb", "StartupProbe", "HealthProbe" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Google.Cloud.AIPlatform.V1.ModelContainerSpec), global::Google.Cloud.AIPlatform.V1.ModelContainerSpec.Parser, new[]{ "ImageUri", "Command", "Args", "Env", "Ports", "PredictRoute", "HealthRoute", "GrpcPorts", "DeploymentTimeout", "SharedMemorySizeMb", "StartupProbe", "HealthProbe" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Google.Cloud.AIPlatform.V1.Port), global::Google.Cloud.AIPlatform.V1.Port.Parser, new[]{ "ContainerPort" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Google.Cloud.AIPlatform.V1.ModelSourceInfo), global::Google.Cloud.AIPlatform.V1.ModelSourceInfo.Parser, new[]{ "SourceType", "Copy" }, null, new[]{ typeof(global::Google.Cloud.AIPlatform.V1.ModelSourceInfo.Types.ModelSourceType) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Google.Cloud.AIPlatform.V1.Probe), global::Google.Cloud.AIPlatform.V1.Probe.Parser, new[]{ "Exec", "PeriodSeconds", "TimeoutSeconds" }, new[]{ "ProbeType" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Google.Cloud.AIPlatform.V1.Probe.Types.ExecAction), global::Google.Cloud.AIPlatform.V1.Probe.Types.ExecAction.Parser, new[]{ "Command" }, null, null, null, null)})
@@ -2712,6 +2713,7 @@ namespace Google.Cloud.AIPlatform.V1 {
       ports_ = other.ports_.Clone();
       predictRoute_ = other.predictRoute_;
       healthRoute_ = other.healthRoute_;
+      grpcPorts_ = other.grpcPorts_.Clone();
       deploymentTimeout_ = other.deploymentTimeout_ != null ? other.deploymentTimeout_.Clone() : null;
       sharedMemorySizeMb_ = other.sharedMemorySizeMb_;
       startupProbe_ = other.startupProbe_ != null ? other.startupProbe_.Clone() : null;
@@ -3016,6 +3018,28 @@ namespace Google.Cloud.AIPlatform.V1 {
       }
     }
 
+    /// <summary>Field number for the "grpc_ports" field.</summary>
+    public const int GrpcPortsFieldNumber = 9;
+    private static readonly pb::FieldCodec<global::Google.Cloud.AIPlatform.V1.Port> _repeated_grpcPorts_codec
+        = pb::FieldCodec.ForMessage(74, global::Google.Cloud.AIPlatform.V1.Port.Parser);
+    private readonly pbc::RepeatedField<global::Google.Cloud.AIPlatform.V1.Port> grpcPorts_ = new pbc::RepeatedField<global::Google.Cloud.AIPlatform.V1.Port>();
+    /// <summary>
+    /// Immutable. List of ports to expose from the container. Vertex AI sends gRPC
+    /// prediction requests that it receives to the first port on this list. Vertex
+    /// AI also sends liveness and health checks to this port.
+    ///
+    /// If you do not specify this field, gRPC requests to the container will be
+    /// disabled.
+    ///
+    /// Vertex AI does not use ports other than the first one listed. This field
+    /// corresponds to the `ports` field of the Kubernetes Containers v1 core API.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Google.Cloud.AIPlatform.V1.Port> GrpcPorts {
+      get { return grpcPorts_; }
+    }
+
     /// <summary>Field number for the "deployment_timeout" field.</summary>
     public const int DeploymentTimeoutFieldNumber = 10;
     private global::Google.Protobuf.WellKnownTypes.Duration deploymentTimeout_;
@@ -3100,6 +3124,7 @@ namespace Google.Cloud.AIPlatform.V1 {
       if(!ports_.Equals(other.ports_)) return false;
       if (PredictRoute != other.PredictRoute) return false;
       if (HealthRoute != other.HealthRoute) return false;
+      if(!grpcPorts_.Equals(other.grpcPorts_)) return false;
       if (!object.Equals(DeploymentTimeout, other.DeploymentTimeout)) return false;
       if (SharedMemorySizeMb != other.SharedMemorySizeMb) return false;
       if (!object.Equals(StartupProbe, other.StartupProbe)) return false;
@@ -3118,6 +3143,7 @@ namespace Google.Cloud.AIPlatform.V1 {
       hash ^= ports_.GetHashCode();
       if (PredictRoute.Length != 0) hash ^= PredictRoute.GetHashCode();
       if (HealthRoute.Length != 0) hash ^= HealthRoute.GetHashCode();
+      hash ^= grpcPorts_.GetHashCode();
       if (deploymentTimeout_ != null) hash ^= DeploymentTimeout.GetHashCode();
       if (SharedMemorySizeMb != 0L) hash ^= SharedMemorySizeMb.GetHashCode();
       if (startupProbe_ != null) hash ^= StartupProbe.GetHashCode();
@@ -3156,6 +3182,7 @@ namespace Google.Cloud.AIPlatform.V1 {
         output.WriteRawTag(58);
         output.WriteString(HealthRoute);
       }
+      grpcPorts_.WriteTo(output, _repeated_grpcPorts_codec);
       if (deploymentTimeout_ != null) {
         output.WriteRawTag(82);
         output.WriteMessage(DeploymentTimeout);
@@ -3198,6 +3225,7 @@ namespace Google.Cloud.AIPlatform.V1 {
         output.WriteRawTag(58);
         output.WriteString(HealthRoute);
       }
+      grpcPorts_.WriteTo(ref output, _repeated_grpcPorts_codec);
       if (deploymentTimeout_ != null) {
         output.WriteRawTag(82);
         output.WriteMessage(DeploymentTimeout);
@@ -3237,6 +3265,7 @@ namespace Google.Cloud.AIPlatform.V1 {
       if (HealthRoute.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(HealthRoute);
       }
+      size += grpcPorts_.CalculateSize(_repeated_grpcPorts_codec);
       if (deploymentTimeout_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(DeploymentTimeout);
       }
@@ -3274,6 +3303,7 @@ namespace Google.Cloud.AIPlatform.V1 {
       if (other.HealthRoute.Length != 0) {
         HealthRoute = other.HealthRoute;
       }
+      grpcPorts_.Add(other.grpcPorts_);
       if (other.deploymentTimeout_ != null) {
         if (deploymentTimeout_ == null) {
           DeploymentTimeout = new global::Google.Protobuf.WellKnownTypes.Duration();
@@ -3336,6 +3366,10 @@ namespace Google.Cloud.AIPlatform.V1 {
           }
           case 58: {
             HealthRoute = input.ReadString();
+            break;
+          }
+          case 74: {
+            grpcPorts_.AddEntriesFrom(input, _repeated_grpcPorts_codec);
             break;
           }
           case 82: {
@@ -3404,6 +3438,10 @@ namespace Google.Cloud.AIPlatform.V1 {
           }
           case 58: {
             HealthRoute = input.ReadString();
+            break;
+          }
+          case 74: {
+            grpcPorts_.AddEntriesFrom(ref input, _repeated_grpcPorts_codec);
             break;
           }
           case 82: {
