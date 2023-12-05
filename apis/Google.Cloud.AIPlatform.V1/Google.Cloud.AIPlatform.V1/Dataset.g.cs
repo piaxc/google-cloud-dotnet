@@ -55,26 +55,36 @@ namespace Google.Cloud.AIPlatform.V1 {
             "Zy5Bbm5vdGF0aW9uTGFiZWxzRW50cnkSHgoRaW1wb3J0X3NjaGVtYV91cmkY",
             "BCABKAlCA+BBAho1ChNEYXRhSXRlbUxhYmVsc0VudHJ5EgsKA2tleRgBIAEo",
             "CRINCgV2YWx1ZRgCIAEoCToCOAEaNwoVQW5ub3RhdGlvbkxhYmVsc0VudHJ5",
-            "EgsKA2tleRgBIAEoCRINCgV2YWx1ZRgCIAEoCToCOAFCCAoGc291cmNlItgB",
+            "EgsKA2tleRgBIAEoCRINCgV2YWx1ZRgCIAEoCToCOAFCCAoGc291cmNlIuUD",
             "ChBFeHBvcnREYXRhQ29uZmlnEkUKD2djc19kZXN0aW5hdGlvbhgBIAEoCzIq",
             "Lmdvb2dsZS5jbG91ZC5haXBsYXRmb3JtLnYxLkdjc0Rlc3RpbmF0aW9uSAAS",
             "SQoOZnJhY3Rpb25fc3BsaXQYBSABKAsyLy5nb29nbGUuY2xvdWQuYWlwbGF0",
-            "Zm9ybS52MS5FeHBvcnRGcmFjdGlvblNwbGl0SAESGgoSYW5ub3RhdGlvbnNf",
-            "ZmlsdGVyGAIgASgJQg0KC2Rlc3RpbmF0aW9uQgcKBXNwbGl0ImQKE0V4cG9y",
-            "dEZyYWN0aW9uU3BsaXQSGQoRdHJhaW5pbmdfZnJhY3Rpb24YASABKAESGwoT",
-            "dmFsaWRhdGlvbl9mcmFjdGlvbhgCIAEoARIVCg10ZXN0X2ZyYWN0aW9uGAMg",
-            "ASgBQsoBCh5jb20uZ29vZ2xlLmNsb3VkLmFpcGxhdGZvcm0udjFCDERhdGFz",
-            "ZXRQcm90b1ABWj5jbG91ZC5nb29nbGUuY29tL2dvL2FpcGxhdGZvcm0vYXBp",
-            "djEvYWlwbGF0Zm9ybXBiO2FpcGxhdGZvcm1wYqoCGkdvb2dsZS5DbG91ZC5B",
-            "SVBsYXRmb3JtLlYxygIaR29vZ2xlXENsb3VkXEFJUGxhdGZvcm1cVjHqAh1H",
-            "b29nbGU6OkNsb3VkOjpBSVBsYXRmb3JtOjpWMWIGcHJvdG8z"));
+            "Zm9ybS52MS5FeHBvcnRGcmFjdGlvblNwbGl0SAESRQoMZmlsdGVyX3NwbGl0",
+            "GAcgASgLMi0uZ29vZ2xlLmNsb3VkLmFpcGxhdGZvcm0udjEuRXhwb3J0Rmls",
+            "dGVyU3BsaXRIARIaChJhbm5vdGF0aW9uc19maWx0ZXIYAiABKAkSFgoOc2F2",
+            "ZWRfcXVlcnlfaWQYCyABKAkSHQoVYW5ub3RhdGlvbl9zY2hlbWFfdXJpGAwg",
+            "ASgJEkoKCmV4cG9ydF91c2UYBCABKA4yNi5nb29nbGUuY2xvdWQuYWlwbGF0",
+            "Zm9ybS52MS5FeHBvcnREYXRhQ29uZmlnLkV4cG9ydFVzZSJBCglFeHBvcnRV",
+            "c2USGgoWRVhQT1JUX1VTRV9VTlNQRUNJRklFRBAAEhgKFENVU1RPTV9DT0RF",
+            "X1RSQUlOSU5HEAZCDQoLZGVzdGluYXRpb25CBwoFc3BsaXQiZAoTRXhwb3J0",
+            "RnJhY3Rpb25TcGxpdBIZChF0cmFpbmluZ19mcmFjdGlvbhgBIAEoARIbChN2",
+            "YWxpZGF0aW9uX2ZyYWN0aW9uGAIgASgBEhUKDXRlc3RfZnJhY3Rpb24YAyAB",
+            "KAEiawoRRXhwb3J0RmlsdGVyU3BsaXQSHAoPdHJhaW5pbmdfZmlsdGVyGAEg",
+            "ASgJQgPgQQISHgoRdmFsaWRhdGlvbl9maWx0ZXIYAiABKAlCA+BBAhIYCgt0",
+            "ZXN0X2ZpbHRlchgDIAEoCUID4EECQsoBCh5jb20uZ29vZ2xlLmNsb3VkLmFp",
+            "cGxhdGZvcm0udjFCDERhdGFzZXRQcm90b1ABWj5jbG91ZC5nb29nbGUuY29t",
+            "L2dvL2FpcGxhdGZvcm0vYXBpdjEvYWlwbGF0Zm9ybXBiO2FpcGxhdGZvcm1w",
+            "YqoCGkdvb2dsZS5DbG91ZC5BSVBsYXRmb3JtLlYxygIaR29vZ2xlXENsb3Vk",
+            "XEFJUGxhdGZvcm1cVjHqAh1Hb29nbGU6OkNsb3VkOjpBSVBsYXRmb3JtOjpW",
+            "MWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.FieldBehaviorReflection.Descriptor, global::Google.Api.ResourceReflection.Descriptor, global::Google.Cloud.AIPlatform.V1.EncryptionSpecReflection.Descriptor, global::Google.Cloud.AIPlatform.V1.IoReflection.Descriptor, global::Google.Cloud.AIPlatform.V1.SavedQueryReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.StructReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Google.Cloud.AIPlatform.V1.Dataset), global::Google.Cloud.AIPlatform.V1.Dataset.Parser, new[]{ "Name", "DisplayName", "Description", "MetadataSchemaUri", "Metadata", "DataItemCount", "CreateTime", "UpdateTime", "Etag", "Labels", "SavedQueries", "EncryptionSpec", "MetadataArtifact" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Google.Cloud.AIPlatform.V1.ImportDataConfig), global::Google.Cloud.AIPlatform.V1.ImportDataConfig.Parser, new[]{ "GcsSource", "DataItemLabels", "AnnotationLabels", "ImportSchemaUri" }, new[]{ "Source" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Google.Cloud.AIPlatform.V1.ExportDataConfig), global::Google.Cloud.AIPlatform.V1.ExportDataConfig.Parser, new[]{ "GcsDestination", "FractionSplit", "AnnotationsFilter" }, new[]{ "Destination", "Split" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Google.Cloud.AIPlatform.V1.ExportFractionSplit), global::Google.Cloud.AIPlatform.V1.ExportFractionSplit.Parser, new[]{ "TrainingFraction", "ValidationFraction", "TestFraction" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Google.Cloud.AIPlatform.V1.ExportDataConfig), global::Google.Cloud.AIPlatform.V1.ExportDataConfig.Parser, new[]{ "GcsDestination", "FractionSplit", "FilterSplit", "AnnotationsFilter", "SavedQueryId", "AnnotationSchemaUri", "ExportUse" }, new[]{ "Destination", "Split" }, new[]{ typeof(global::Google.Cloud.AIPlatform.V1.ExportDataConfig.Types.ExportUse) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Google.Cloud.AIPlatform.V1.ExportFractionSplit), global::Google.Cloud.AIPlatform.V1.ExportFractionSplit.Parser, new[]{ "TrainingFraction", "ValidationFraction", "TestFraction" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Google.Cloud.AIPlatform.V1.ExportFilterSplit), global::Google.Cloud.AIPlatform.V1.ExportFilterSplit.Parser, new[]{ "TrainingFilter", "ValidationFilter", "TestFilter" }, null, null, null, null)
           }));
     }
     #endregion
@@ -1202,6 +1212,9 @@ namespace Google.Cloud.AIPlatform.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ExportDataConfig(ExportDataConfig other) : this() {
       annotationsFilter_ = other.annotationsFilter_;
+      savedQueryId_ = other.savedQueryId_;
+      annotationSchemaUri_ = other.annotationSchemaUri_;
+      exportUse_ = other.exportUse_;
       switch (other.DestinationCase) {
         case DestinationOneofCase.GcsDestination:
           GcsDestination = other.GcsDestination.Clone();
@@ -1211,6 +1224,9 @@ namespace Google.Cloud.AIPlatform.V1 {
       switch (other.SplitCase) {
         case SplitOneofCase.FractionSplit:
           FractionSplit = other.FractionSplit.Clone();
+          break;
+        case SplitOneofCase.FilterSplit:
+          FilterSplit = other.FilterSplit.Clone();
           break;
       }
 
@@ -1261,6 +1277,21 @@ namespace Google.Cloud.AIPlatform.V1 {
       }
     }
 
+    /// <summary>Field number for the "filter_split" field.</summary>
+    public const int FilterSplitFieldNumber = 7;
+    /// <summary>
+    /// Split based on the provided filters for each set.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Google.Cloud.AIPlatform.V1.ExportFilterSplit FilterSplit {
+      get { return splitCase_ == SplitOneofCase.FilterSplit ? (global::Google.Cloud.AIPlatform.V1.ExportFilterSplit) split_ : null; }
+      set {
+        split_ = value;
+        splitCase_ = value == null ? SplitOneofCase.None : SplitOneofCase.FilterSplit;
+      }
+    }
+
     /// <summary>Field number for the "annotations_filter" field.</summary>
     public const int AnnotationsFilterFieldNumber = 2;
     private string annotationsFilter_ = "";
@@ -1276,6 +1307,90 @@ namespace Google.Cloud.AIPlatform.V1 {
       get { return annotationsFilter_; }
       set {
         annotationsFilter_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "saved_query_id" field.</summary>
+    public const int SavedQueryIdFieldNumber = 11;
+    private string savedQueryId_ = "";
+    /// <summary>
+    /// The ID of a SavedQuery (annotation set) under the Dataset specified by
+    /// [dataset_id][] used for filtering Annotations for training.
+    ///
+    /// Only used for custom training data export use cases.
+    /// Only applicable to Datasets that have SavedQueries.
+    ///
+    /// Only Annotations that are associated with this SavedQuery are used in
+    /// respectively training. When used in conjunction with
+    /// [annotations_filter][google.cloud.aiplatform.v1.ExportDataConfig.annotations_filter],
+    /// the Annotations used for training are filtered by both
+    /// [saved_query_id][google.cloud.aiplatform.v1.ExportDataConfig.saved_query_id]
+    /// and
+    /// [annotations_filter][google.cloud.aiplatform.v1.ExportDataConfig.annotations_filter].
+    ///
+    /// Only one of
+    /// [saved_query_id][google.cloud.aiplatform.v1.ExportDataConfig.saved_query_id]
+    /// and
+    /// [annotation_schema_uri][google.cloud.aiplatform.v1.ExportDataConfig.annotation_schema_uri]
+    /// should be specified as both of them represent the same thing: problem type.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string SavedQueryId {
+      get { return savedQueryId_; }
+      set {
+        savedQueryId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "annotation_schema_uri" field.</summary>
+    public const int AnnotationSchemaUriFieldNumber = 12;
+    private string annotationSchemaUri_ = "";
+    /// <summary>
+    /// The Cloud Storage URI that points to a YAML file describing the annotation
+    /// schema. The schema is defined as an OpenAPI 3.0.2 [Schema
+    /// Object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.0.2.md#schemaObject).
+    /// The schema files that can be used here are found in
+    /// gs://google-cloud-aiplatform/schema/dataset/annotation/, note that the
+    /// chosen schema must be consistent with
+    /// [metadata][google.cloud.aiplatform.v1.Dataset.metadata_schema_uri] of the
+    /// Dataset specified by [dataset_id][].
+    ///
+    /// Only used for custom training data export use cases.
+    /// Only applicable to Datasets that have DataItems and Annotations.
+    ///
+    /// Only Annotations that both match this schema and belong to DataItems not
+    /// ignored by the split method are used in respectively training, validation
+    /// or test role, depending on the role of the DataItem they are on.
+    ///
+    /// When used in conjunction with
+    /// [annotations_filter][google.cloud.aiplatform.v1.ExportDataConfig.annotations_filter],
+    /// the Annotations used for training are filtered by both
+    /// [annotations_filter][google.cloud.aiplatform.v1.ExportDataConfig.annotations_filter]
+    /// and
+    /// [annotation_schema_uri][google.cloud.aiplatform.v1.ExportDataConfig.annotation_schema_uri].
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string AnnotationSchemaUri {
+      get { return annotationSchemaUri_; }
+      set {
+        annotationSchemaUri_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "export_use" field.</summary>
+    public const int ExportUseFieldNumber = 4;
+    private global::Google.Cloud.AIPlatform.V1.ExportDataConfig.Types.ExportUse exportUse_ = global::Google.Cloud.AIPlatform.V1.ExportDataConfig.Types.ExportUse.Unspecified;
+    /// <summary>
+    /// Indicates the usage of the exported files.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Google.Cloud.AIPlatform.V1.ExportDataConfig.Types.ExportUse ExportUse {
+      get { return exportUse_; }
+      set {
+        exportUse_ = value;
       }
     }
 
@@ -1304,6 +1419,7 @@ namespace Google.Cloud.AIPlatform.V1 {
     public enum SplitOneofCase {
       None = 0,
       FractionSplit = 5,
+      FilterSplit = 7,
     }
     private SplitOneofCase splitCase_ = SplitOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1336,7 +1452,11 @@ namespace Google.Cloud.AIPlatform.V1 {
       }
       if (!object.Equals(GcsDestination, other.GcsDestination)) return false;
       if (!object.Equals(FractionSplit, other.FractionSplit)) return false;
+      if (!object.Equals(FilterSplit, other.FilterSplit)) return false;
       if (AnnotationsFilter != other.AnnotationsFilter) return false;
+      if (SavedQueryId != other.SavedQueryId) return false;
+      if (AnnotationSchemaUri != other.AnnotationSchemaUri) return false;
+      if (ExportUse != other.ExportUse) return false;
       if (DestinationCase != other.DestinationCase) return false;
       if (SplitCase != other.SplitCase) return false;
       return Equals(_unknownFields, other._unknownFields);
@@ -1348,7 +1468,11 @@ namespace Google.Cloud.AIPlatform.V1 {
       int hash = 1;
       if (destinationCase_ == DestinationOneofCase.GcsDestination) hash ^= GcsDestination.GetHashCode();
       if (splitCase_ == SplitOneofCase.FractionSplit) hash ^= FractionSplit.GetHashCode();
+      if (splitCase_ == SplitOneofCase.FilterSplit) hash ^= FilterSplit.GetHashCode();
       if (AnnotationsFilter.Length != 0) hash ^= AnnotationsFilter.GetHashCode();
+      if (SavedQueryId.Length != 0) hash ^= SavedQueryId.GetHashCode();
+      if (AnnotationSchemaUri.Length != 0) hash ^= AnnotationSchemaUri.GetHashCode();
+      if (ExportUse != global::Google.Cloud.AIPlatform.V1.ExportDataConfig.Types.ExportUse.Unspecified) hash ^= ExportUse.GetHashCode();
       hash ^= (int) destinationCase_;
       hash ^= (int) splitCase_;
       if (_unknownFields != null) {
@@ -1377,9 +1501,25 @@ namespace Google.Cloud.AIPlatform.V1 {
         output.WriteRawTag(18);
         output.WriteString(AnnotationsFilter);
       }
+      if (ExportUse != global::Google.Cloud.AIPlatform.V1.ExportDataConfig.Types.ExportUse.Unspecified) {
+        output.WriteRawTag(32);
+        output.WriteEnum((int) ExportUse);
+      }
       if (splitCase_ == SplitOneofCase.FractionSplit) {
         output.WriteRawTag(42);
         output.WriteMessage(FractionSplit);
+      }
+      if (splitCase_ == SplitOneofCase.FilterSplit) {
+        output.WriteRawTag(58);
+        output.WriteMessage(FilterSplit);
+      }
+      if (SavedQueryId.Length != 0) {
+        output.WriteRawTag(90);
+        output.WriteString(SavedQueryId);
+      }
+      if (AnnotationSchemaUri.Length != 0) {
+        output.WriteRawTag(98);
+        output.WriteString(AnnotationSchemaUri);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -1399,9 +1539,25 @@ namespace Google.Cloud.AIPlatform.V1 {
         output.WriteRawTag(18);
         output.WriteString(AnnotationsFilter);
       }
+      if (ExportUse != global::Google.Cloud.AIPlatform.V1.ExportDataConfig.Types.ExportUse.Unspecified) {
+        output.WriteRawTag(32);
+        output.WriteEnum((int) ExportUse);
+      }
       if (splitCase_ == SplitOneofCase.FractionSplit) {
         output.WriteRawTag(42);
         output.WriteMessage(FractionSplit);
+      }
+      if (splitCase_ == SplitOneofCase.FilterSplit) {
+        output.WriteRawTag(58);
+        output.WriteMessage(FilterSplit);
+      }
+      if (SavedQueryId.Length != 0) {
+        output.WriteRawTag(90);
+        output.WriteString(SavedQueryId);
+      }
+      if (AnnotationSchemaUri.Length != 0) {
+        output.WriteRawTag(98);
+        output.WriteString(AnnotationSchemaUri);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -1419,8 +1575,20 @@ namespace Google.Cloud.AIPlatform.V1 {
       if (splitCase_ == SplitOneofCase.FractionSplit) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(FractionSplit);
       }
+      if (splitCase_ == SplitOneofCase.FilterSplit) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(FilterSplit);
+      }
       if (AnnotationsFilter.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(AnnotationsFilter);
+      }
+      if (SavedQueryId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(SavedQueryId);
+      }
+      if (AnnotationSchemaUri.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(AnnotationSchemaUri);
+      }
+      if (ExportUse != global::Google.Cloud.AIPlatform.V1.ExportDataConfig.Types.ExportUse.Unspecified) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) ExportUse);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1437,6 +1605,15 @@ namespace Google.Cloud.AIPlatform.V1 {
       if (other.AnnotationsFilter.Length != 0) {
         AnnotationsFilter = other.AnnotationsFilter;
       }
+      if (other.SavedQueryId.Length != 0) {
+        SavedQueryId = other.SavedQueryId;
+      }
+      if (other.AnnotationSchemaUri.Length != 0) {
+        AnnotationSchemaUri = other.AnnotationSchemaUri;
+      }
+      if (other.ExportUse != global::Google.Cloud.AIPlatform.V1.ExportDataConfig.Types.ExportUse.Unspecified) {
+        ExportUse = other.ExportUse;
+      }
       switch (other.DestinationCase) {
         case DestinationOneofCase.GcsDestination:
           if (GcsDestination == null) {
@@ -1452,6 +1629,12 @@ namespace Google.Cloud.AIPlatform.V1 {
             FractionSplit = new global::Google.Cloud.AIPlatform.V1.ExportFractionSplit();
           }
           FractionSplit.MergeFrom(other.FractionSplit);
+          break;
+        case SplitOneofCase.FilterSplit:
+          if (FilterSplit == null) {
+            FilterSplit = new global::Google.Cloud.AIPlatform.V1.ExportFilterSplit();
+          }
+          FilterSplit.MergeFrom(other.FilterSplit);
           break;
       }
 
@@ -1483,6 +1666,10 @@ namespace Google.Cloud.AIPlatform.V1 {
             AnnotationsFilter = input.ReadString();
             break;
           }
+          case 32: {
+            ExportUse = (global::Google.Cloud.AIPlatform.V1.ExportDataConfig.Types.ExportUse) input.ReadEnum();
+            break;
+          }
           case 42: {
             global::Google.Cloud.AIPlatform.V1.ExportFractionSplit subBuilder = new global::Google.Cloud.AIPlatform.V1.ExportFractionSplit();
             if (splitCase_ == SplitOneofCase.FractionSplit) {
@@ -1490,6 +1677,23 @@ namespace Google.Cloud.AIPlatform.V1 {
             }
             input.ReadMessage(subBuilder);
             FractionSplit = subBuilder;
+            break;
+          }
+          case 58: {
+            global::Google.Cloud.AIPlatform.V1.ExportFilterSplit subBuilder = new global::Google.Cloud.AIPlatform.V1.ExportFilterSplit();
+            if (splitCase_ == SplitOneofCase.FilterSplit) {
+              subBuilder.MergeFrom(FilterSplit);
+            }
+            input.ReadMessage(subBuilder);
+            FilterSplit = subBuilder;
+            break;
+          }
+          case 90: {
+            SavedQueryId = input.ReadString();
+            break;
+          }
+          case 98: {
+            AnnotationSchemaUri = input.ReadString();
             break;
           }
         }
@@ -1520,6 +1724,10 @@ namespace Google.Cloud.AIPlatform.V1 {
             AnnotationsFilter = input.ReadString();
             break;
           }
+          case 32: {
+            ExportUse = (global::Google.Cloud.AIPlatform.V1.ExportDataConfig.Types.ExportUse) input.ReadEnum();
+            break;
+          }
           case 42: {
             global::Google.Cloud.AIPlatform.V1.ExportFractionSplit subBuilder = new global::Google.Cloud.AIPlatform.V1.ExportFractionSplit();
             if (splitCase_ == SplitOneofCase.FractionSplit) {
@@ -1529,10 +1737,52 @@ namespace Google.Cloud.AIPlatform.V1 {
             FractionSplit = subBuilder;
             break;
           }
+          case 58: {
+            global::Google.Cloud.AIPlatform.V1.ExportFilterSplit subBuilder = new global::Google.Cloud.AIPlatform.V1.ExportFilterSplit();
+            if (splitCase_ == SplitOneofCase.FilterSplit) {
+              subBuilder.MergeFrom(FilterSplit);
+            }
+            input.ReadMessage(subBuilder);
+            FilterSplit = subBuilder;
+            break;
+          }
+          case 90: {
+            SavedQueryId = input.ReadString();
+            break;
+          }
+          case 98: {
+            AnnotationSchemaUri = input.ReadString();
+            break;
+          }
         }
       }
     }
     #endif
+
+    #region Nested types
+    /// <summary>Container for nested types declared in the ExportDataConfig message type.</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static partial class Types {
+      /// <summary>
+      /// ExportUse indicates the usage of the exported files. It restricts file
+      /// destination, format, annotations to be exported, whether to allow
+      /// unannotated data to be exported and whether to clone files to temp Cloud
+      /// Storage bucket.
+      /// </summary>
+      public enum ExportUse {
+        /// <summary>
+        /// Regular user export.
+        /// </summary>
+        [pbr::OriginalName("EXPORT_USE_UNSPECIFIED")] Unspecified = 0,
+        /// <summary>
+        /// Export for custom code training.
+        /// </summary>
+        [pbr::OriginalName("CUSTOM_CODE_TRAINING")] CustomCodeTraining = 6,
+      }
+
+    }
+    #endregion
 
   }
 
@@ -1807,6 +2057,305 @@ namespace Google.Cloud.AIPlatform.V1 {
           }
           case 25: {
             TestFraction = input.ReadDouble();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// Assigns input data to training, validation, and test sets based on the given
+  /// filters, data pieces not matched by any filter are ignored. Currently only
+  /// supported for Datasets containing DataItems.
+  /// If any of the filters in this message are to match nothing, then they can be
+  /// set as '-' (the minus sign).
+  ///
+  /// Supported only for unstructured Datasets.
+  /// </summary>
+  public sealed partial class ExportFilterSplit : pb::IMessage<ExportFilterSplit>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<ExportFilterSplit> _parser = new pb::MessageParser<ExportFilterSplit>(() => new ExportFilterSplit());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<ExportFilterSplit> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Google.Cloud.AIPlatform.V1.DatasetReflection.Descriptor.MessageTypes[4]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ExportFilterSplit() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ExportFilterSplit(ExportFilterSplit other) : this() {
+      trainingFilter_ = other.trainingFilter_;
+      validationFilter_ = other.validationFilter_;
+      testFilter_ = other.testFilter_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ExportFilterSplit Clone() {
+      return new ExportFilterSplit(this);
+    }
+
+    /// <summary>Field number for the "training_filter" field.</summary>
+    public const int TrainingFilterFieldNumber = 1;
+    private string trainingFilter_ = "";
+    /// <summary>
+    /// Required. A filter on DataItems of the Dataset. DataItems that match
+    /// this filter are used to train the Model. A filter with same syntax
+    /// as the one used in
+    /// [DatasetService.ListDataItems][google.cloud.aiplatform.v1.DatasetService.ListDataItems]
+    /// may be used. If a single DataItem is matched by more than one of the
+    /// FilterSplit filters, then it is assigned to the first set that applies to
+    /// it in the training, validation, test order.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string TrainingFilter {
+      get { return trainingFilter_; }
+      set {
+        trainingFilter_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "validation_filter" field.</summary>
+    public const int ValidationFilterFieldNumber = 2;
+    private string validationFilter_ = "";
+    /// <summary>
+    /// Required. A filter on DataItems of the Dataset. DataItems that match
+    /// this filter are used to validate the Model. A filter with same syntax
+    /// as the one used in
+    /// [DatasetService.ListDataItems][google.cloud.aiplatform.v1.DatasetService.ListDataItems]
+    /// may be used. If a single DataItem is matched by more than one of the
+    /// FilterSplit filters, then it is assigned to the first set that applies to
+    /// it in the training, validation, test order.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string ValidationFilter {
+      get { return validationFilter_; }
+      set {
+        validationFilter_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "test_filter" field.</summary>
+    public const int TestFilterFieldNumber = 3;
+    private string testFilter_ = "";
+    /// <summary>
+    /// Required. A filter on DataItems of the Dataset. DataItems that match
+    /// this filter are used to test the Model. A filter with same syntax
+    /// as the one used in
+    /// [DatasetService.ListDataItems][google.cloud.aiplatform.v1.DatasetService.ListDataItems]
+    /// may be used. If a single DataItem is matched by more than one of the
+    /// FilterSplit filters, then it is assigned to the first set that applies to
+    /// it in the training, validation, test order.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string TestFilter {
+      get { return testFilter_; }
+      set {
+        testFilter_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as ExportFilterSplit);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(ExportFilterSplit other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (TrainingFilter != other.TrainingFilter) return false;
+      if (ValidationFilter != other.ValidationFilter) return false;
+      if (TestFilter != other.TestFilter) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (TrainingFilter.Length != 0) hash ^= TrainingFilter.GetHashCode();
+      if (ValidationFilter.Length != 0) hash ^= ValidationFilter.GetHashCode();
+      if (TestFilter.Length != 0) hash ^= TestFilter.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (TrainingFilter.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(TrainingFilter);
+      }
+      if (ValidationFilter.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(ValidationFilter);
+      }
+      if (TestFilter.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(TestFilter);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (TrainingFilter.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(TrainingFilter);
+      }
+      if (ValidationFilter.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(ValidationFilter);
+      }
+      if (TestFilter.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(TestFilter);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (TrainingFilter.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(TrainingFilter);
+      }
+      if (ValidationFilter.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ValidationFilter);
+      }
+      if (TestFilter.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(TestFilter);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(ExportFilterSplit other) {
+      if (other == null) {
+        return;
+      }
+      if (other.TrainingFilter.Length != 0) {
+        TrainingFilter = other.TrainingFilter;
+      }
+      if (other.ValidationFilter.Length != 0) {
+        ValidationFilter = other.ValidationFilter;
+      }
+      if (other.TestFilter.Length != 0) {
+        TestFilter = other.TestFilter;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            TrainingFilter = input.ReadString();
+            break;
+          }
+          case 18: {
+            ValidationFilter = input.ReadString();
+            break;
+          }
+          case 26: {
+            TestFilter = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            TrainingFilter = input.ReadString();
+            break;
+          }
+          case 18: {
+            ValidationFilter = input.ReadString();
+            break;
+          }
+          case 26: {
+            TestFilter = input.ReadString();
             break;
           }
         }

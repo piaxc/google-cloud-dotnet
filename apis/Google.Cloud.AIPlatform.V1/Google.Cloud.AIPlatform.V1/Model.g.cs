@@ -33,7 +33,7 @@ namespace Google.Cloud.AIPlatform.V1 {
             "b3RvGixnb29nbGUvY2xvdWQvYWlwbGF0Zm9ybS92MS9leHBsYW5hdGlvbi5w",
             "cm90bxoeZ29vZ2xlL3Byb3RvYnVmL2R1cmF0aW9uLnByb3RvGhxnb29nbGUv",
             "cHJvdG9idWYvc3RydWN0LnByb3RvGh9nb29nbGUvcHJvdG9idWYvdGltZXN0",
-            "YW1wLnByb3RvIt8QCgVNb2RlbBIMCgRuYW1lGAEgASgJEhoKCnZlcnNpb25f",
+            "YW1wLnByb3RvIv8SCgVNb2RlbBIMCgRuYW1lGAEgASgJEhoKCnZlcnNpb25f",
             "aWQYHCABKAlCBuBBBeBBAxIXCg92ZXJzaW9uX2FsaWFzZXMYHSADKAkSPAoT",
             "dmVyc2lvbl9jcmVhdGVfdGltZRgfIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5U",
             "aW1lc3RhbXBCA+BBAxI8ChN2ZXJzaW9uX3VwZGF0ZV90aW1lGCAgASgLMhou",
@@ -62,59 +62,67 @@ namespace Google.Cloud.AIPlatform.V1 {
             "eHBsYW5hdGlvbl9zcGVjGBcgASgLMisuZ29vZ2xlLmNsb3VkLmFpcGxhdGZv",
             "cm0udjEuRXhwbGFuYXRpb25TcGVjEgwKBGV0YWcYECABKAkSPQoGbGFiZWxz",
             "GBEgAygLMi0uZ29vZ2xlLmNsb3VkLmFpcGxhdGZvcm0udjEuTW9kZWwuTGFi",
-            "ZWxzRW50cnkSQwoPZW5jcnlwdGlvbl9zcGVjGBggASgLMiouZ29vZ2xlLmNs",
-            "b3VkLmFpcGxhdGZvcm0udjEuRW5jcnlwdGlvblNwZWMSSwoRbW9kZWxfc291",
-            "cmNlX2luZm8YJiABKAsyKy5nb29nbGUuY2xvdWQuYWlwbGF0Zm9ybS52MS5N",
-            "b2RlbFNvdXJjZUluZm9CA+BBAxJVChNvcmlnaW5hbF9tb2RlbF9pbmZvGCIg",
-            "ASgLMjMuZ29vZ2xlLmNsb3VkLmFpcGxhdGZvcm0udjEuTW9kZWwuT3JpZ2lu",
-            "YWxNb2RlbEluZm9CA+BBAxIeChFtZXRhZGF0YV9hcnRpZmFjdBgsIAEoCUID",
-            "4EEDGtUBCgxFeHBvcnRGb3JtYXQSDwoCaWQYASABKAlCA+BBAxJiChNleHBv",
-            "cnRhYmxlX2NvbnRlbnRzGAIgAygOMkAuZ29vZ2xlLmNsb3VkLmFpcGxhdGZv",
-            "cm0udjEuTW9kZWwuRXhwb3J0Rm9ybWF0LkV4cG9ydGFibGVDb250ZW50QgPg",
-            "QQMiUAoRRXhwb3J0YWJsZUNvbnRlbnQSIgoeRVhQT1JUQUJMRV9DT05URU5U",
-            "X1VOU1BFQ0lGSUVEEAASDAoIQVJUSUZBQ1QQARIJCgVJTUFHRRACGksKEU9y",
-            "aWdpbmFsTW9kZWxJbmZvEjYKBW1vZGVsGAEgASgJQifgQQP6QSEKH2FpcGxh",
-            "dGZvcm0uZ29vZ2xlYXBpcy5jb20vTW9kZWwaLQoLTGFiZWxzRW50cnkSCwoD",
-            "a2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4ASKMAQoXRGVwbG95bWVudFJl",
-            "c291cmNlc1R5cGUSKQolREVQTE9ZTUVOVF9SRVNPVVJDRVNfVFlQRV9VTlNQ",
-            "RUNJRklFRBAAEhcKE0RFRElDQVRFRF9SRVNPVVJDRVMQARIXChNBVVRPTUFU",
-            "SUNfUkVTT1VSQ0VTEAISFAoQU0hBUkVEX1JFU09VUkNFUxADOlzqQVkKH2Fp",
-            "cGxhdGZvcm0uZ29vZ2xlYXBpcy5jb20vTW9kZWwSNnByb2plY3RzL3twcm9q",
-            "ZWN0fS9sb2NhdGlvbnMve2xvY2F0aW9ufS9tb2RlbHMve21vZGVsfSIoChNM",
-            "YXJnZU1vZGVsUmVmZXJlbmNlEhEKBG5hbWUYASABKAlCA+BBAiJ7Cg9QcmVk",
-            "aWN0U2NoZW1hdGESIAoTaW5zdGFuY2Vfc2NoZW1hX3VyaRgBIAEoCUID4EEF",
-            "EiIKFXBhcmFtZXRlcnNfc2NoZW1hX3VyaRgCIAEoCUID4EEFEiIKFXByZWRp",
-            "Y3Rpb25fc2NoZW1hX3VyaRgDIAEoCUID4EEFIpMEChJNb2RlbENvbnRhaW5l",
-            "clNwZWMSGQoJaW1hZ2VfdXJpGAEgASgJQgbgQQLgQQUSFAoHY29tbWFuZBgC",
-            "IAMoCUID4EEFEhEKBGFyZ3MYAyADKAlCA+BBBRI0CgNlbnYYBCADKAsyIi5n",
-            "b29nbGUuY2xvdWQuYWlwbGF0Zm9ybS52MS5FbnZWYXJCA+BBBRI0CgVwb3J0",
-            "cxgFIAMoCzIgLmdvb2dsZS5jbG91ZC5haXBsYXRmb3JtLnYxLlBvcnRCA+BB",
-            "BRIaCg1wcmVkaWN0X3JvdXRlGAYgASgJQgPgQQUSGQoMaGVhbHRoX3JvdXRl",
-            "GAcgASgJQgPgQQUSOQoKZ3JwY19wb3J0cxgJIAMoCzIgLmdvb2dsZS5jbG91",
-            "ZC5haXBsYXRmb3JtLnYxLlBvcnRCA+BBBRI6ChJkZXBsb3ltZW50X3RpbWVv",
-            "dXQYCiABKAsyGS5nb29nbGUucHJvdG9idWYuRHVyYXRpb25CA+BBBRIiChVz",
-            "aGFyZWRfbWVtb3J5X3NpemVfbWIYCyABKANCA+BBBRI9Cg1zdGFydHVwX3By",
-            "b2JlGAwgASgLMiEuZ29vZ2xlLmNsb3VkLmFpcGxhdGZvcm0udjEuUHJvYmVC",
-            "A+BBBRI8CgxoZWFsdGhfcHJvYmUYDSABKAsyIS5nb29nbGUuY2xvdWQuYWlw",
-            "bGF0Zm9ybS52MS5Qcm9iZUID4EEFIh4KBFBvcnQSFgoOY29udGFpbmVyX3Bv",
-            "cnQYAyABKAUi5gEKD01vZGVsU291cmNlSW5mbxJQCgtzb3VyY2VfdHlwZRgB",
-            "IAEoDjI7Lmdvb2dsZS5jbG91ZC5haXBsYXRmb3JtLnYxLk1vZGVsU291cmNl",
-            "SW5mby5Nb2RlbFNvdXJjZVR5cGUSDAoEY29weRgCIAEoCCJzCg9Nb2RlbFNv",
-            "dXJjZVR5cGUSIQodTU9ERUxfU09VUkNFX1RZUEVfVU5TUEVDSUZJRUQQABIK",
-            "CgZBVVRPTUwQARIKCgZDVVNUT00QAhIICgRCUU1MEAMSEAoMTU9ERUxfR0FS",
-            "REVOEAQSCQoFR0VOSUUQBSKjAQoFUHJvYmUSPAoEZXhlYxgBIAEoCzIsLmdv",
-            "b2dsZS5jbG91ZC5haXBsYXRmb3JtLnYxLlByb2JlLkV4ZWNBY3Rpb25IABIW",
-            "Cg5wZXJpb2Rfc2Vjb25kcxgCIAEoBRIXCg90aW1lb3V0X3NlY29uZHMYAyAB",
-            "KAUaHQoKRXhlY0FjdGlvbhIPCgdjb21tYW5kGAEgAygJQgwKCnByb2JlX3R5",
-            "cGVCyAEKHmNvbS5nb29nbGUuY2xvdWQuYWlwbGF0Zm9ybS52MUIKTW9kZWxQ",
-            "cm90b1ABWj5jbG91ZC5nb29nbGUuY29tL2dvL2FpcGxhdGZvcm0vYXBpdjEv",
-            "YWlwbGF0Zm9ybXBiO2FpcGxhdGZvcm1wYqoCGkdvb2dsZS5DbG91ZC5BSVBs",
-            "YXRmb3JtLlYxygIaR29vZ2xlXENsb3VkXEFJUGxhdGZvcm1cVjHqAh1Hb29n",
-            "bGU6OkNsb3VkOjpBSVBsYXRmb3JtOjpWMWIGcHJvdG8z"));
+            "ZWxzRW50cnkSPwoKZGF0YV9zdGF0cxgVIAEoCzIrLmdvb2dsZS5jbG91ZC5h",
+            "aXBsYXRmb3JtLnYxLk1vZGVsLkRhdGFTdGF0cxJDCg9lbmNyeXB0aW9uX3Nw",
+            "ZWMYGCABKAsyKi5nb29nbGUuY2xvdWQuYWlwbGF0Zm9ybS52MS5FbmNyeXB0",
+            "aW9uU3BlYxJLChFtb2RlbF9zb3VyY2VfaW5mbxgmIAEoCzIrLmdvb2dsZS5j",
+            "bG91ZC5haXBsYXRmb3JtLnYxLk1vZGVsU291cmNlSW5mb0ID4EEDElUKE29y",
+            "aWdpbmFsX21vZGVsX2luZm8YIiABKAsyMy5nb29nbGUuY2xvdWQuYWlwbGF0",
+            "Zm9ybS52MS5Nb2RlbC5PcmlnaW5hbE1vZGVsSW5mb0ID4EEDEh4KEW1ldGFk",
+            "YXRhX2FydGlmYWN0GCwgASgJQgPgQQMa1QEKDEV4cG9ydEZvcm1hdBIPCgJp",
+            "ZBgBIAEoCUID4EEDEmIKE2V4cG9ydGFibGVfY29udGVudHMYAiADKA4yQC5n",
+            "b29nbGUuY2xvdWQuYWlwbGF0Zm9ybS52MS5Nb2RlbC5FeHBvcnRGb3JtYXQu",
+            "RXhwb3J0YWJsZUNvbnRlbnRCA+BBAyJQChFFeHBvcnRhYmxlQ29udGVudBIi",
+            "Ch5FWFBPUlRBQkxFX0NPTlRFTlRfVU5TUEVDSUZJRUQQABIMCghBUlRJRkFD",
+            "VBABEgkKBUlNQUdFEAIa3AEKCURhdGFTdGF0cxIhChl0cmFpbmluZ19kYXRh",
+            "X2l0ZW1zX2NvdW50GAEgASgDEiMKG3ZhbGlkYXRpb25fZGF0YV9pdGVtc19j",
+            "b3VudBgCIAEoAxIdChV0ZXN0X2RhdGFfaXRlbXNfY291bnQYAyABKAMSIgoa",
+            "dHJhaW5pbmdfYW5ub3RhdGlvbnNfY291bnQYBCABKAMSJAocdmFsaWRhdGlv",
+            "bl9hbm5vdGF0aW9uc19jb3VudBgFIAEoAxIeChZ0ZXN0X2Fubm90YXRpb25z",
+            "X2NvdW50GAYgASgDGksKEU9yaWdpbmFsTW9kZWxJbmZvEjYKBW1vZGVsGAEg",
+            "ASgJQifgQQP6QSEKH2FpcGxhdGZvcm0uZ29vZ2xlYXBpcy5jb20vTW9kZWwa",
+            "LQoLTGFiZWxzRW50cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4",
+            "ASKMAQoXRGVwbG95bWVudFJlc291cmNlc1R5cGUSKQolREVQTE9ZTUVOVF9S",
+            "RVNPVVJDRVNfVFlQRV9VTlNQRUNJRklFRBAAEhcKE0RFRElDQVRFRF9SRVNP",
+            "VVJDRVMQARIXChNBVVRPTUFUSUNfUkVTT1VSQ0VTEAISFAoQU0hBUkVEX1JF",
+            "U09VUkNFUxADOlzqQVkKH2FpcGxhdGZvcm0uZ29vZ2xlYXBpcy5jb20vTW9k",
+            "ZWwSNnByb2plY3RzL3twcm9qZWN0fS9sb2NhdGlvbnMve2xvY2F0aW9ufS9t",
+            "b2RlbHMve21vZGVsfSIoChNMYXJnZU1vZGVsUmVmZXJlbmNlEhEKBG5hbWUY",
+            "ASABKAlCA+BBAiJ7Cg9QcmVkaWN0U2NoZW1hdGESIAoTaW5zdGFuY2Vfc2No",
+            "ZW1hX3VyaRgBIAEoCUID4EEFEiIKFXBhcmFtZXRlcnNfc2NoZW1hX3VyaRgC",
+            "IAEoCUID4EEFEiIKFXByZWRpY3Rpb25fc2NoZW1hX3VyaRgDIAEoCUID4EEF",
+            "IpMEChJNb2RlbENvbnRhaW5lclNwZWMSGQoJaW1hZ2VfdXJpGAEgASgJQgbg",
+            "QQLgQQUSFAoHY29tbWFuZBgCIAMoCUID4EEFEhEKBGFyZ3MYAyADKAlCA+BB",
+            "BRI0CgNlbnYYBCADKAsyIi5nb29nbGUuY2xvdWQuYWlwbGF0Zm9ybS52MS5F",
+            "bnZWYXJCA+BBBRI0CgVwb3J0cxgFIAMoCzIgLmdvb2dsZS5jbG91ZC5haXBs",
+            "YXRmb3JtLnYxLlBvcnRCA+BBBRIaCg1wcmVkaWN0X3JvdXRlGAYgASgJQgPg",
+            "QQUSGQoMaGVhbHRoX3JvdXRlGAcgASgJQgPgQQUSOQoKZ3JwY19wb3J0cxgJ",
+            "IAMoCzIgLmdvb2dsZS5jbG91ZC5haXBsYXRmb3JtLnYxLlBvcnRCA+BBBRI6",
+            "ChJkZXBsb3ltZW50X3RpbWVvdXQYCiABKAsyGS5nb29nbGUucHJvdG9idWYu",
+            "RHVyYXRpb25CA+BBBRIiChVzaGFyZWRfbWVtb3J5X3NpemVfbWIYCyABKANC",
+            "A+BBBRI9Cg1zdGFydHVwX3Byb2JlGAwgASgLMiEuZ29vZ2xlLmNsb3VkLmFp",
+            "cGxhdGZvcm0udjEuUHJvYmVCA+BBBRI8CgxoZWFsdGhfcHJvYmUYDSABKAsy",
+            "IS5nb29nbGUuY2xvdWQuYWlwbGF0Zm9ybS52MS5Qcm9iZUID4EEFIh4KBFBv",
+            "cnQSFgoOY29udGFpbmVyX3BvcnQYAyABKAUiggIKD01vZGVsU291cmNlSW5m",
+            "bxJQCgtzb3VyY2VfdHlwZRgBIAEoDjI7Lmdvb2dsZS5jbG91ZC5haXBsYXRm",
+            "b3JtLnYxLk1vZGVsU291cmNlSW5mby5Nb2RlbFNvdXJjZVR5cGUSDAoEY29w",
+            "eRgCIAEoCCKOAQoPTW9kZWxTb3VyY2VUeXBlEiEKHU1PREVMX1NPVVJDRV9U",
+            "WVBFX1VOU1BFQ0lGSUVEEAASCgoGQVVUT01MEAESCgoGQ1VTVE9NEAISCAoE",
+            "QlFNTBADEhAKDE1PREVMX0dBUkRFThAEEgkKBUdFTklFEAUSGQoVQ1VTVE9N",
+            "X1RFWFRfRU1CRURESU5HEAYiowEKBVByb2JlEjwKBGV4ZWMYASABKAsyLC5n",
+            "b29nbGUuY2xvdWQuYWlwbGF0Zm9ybS52MS5Qcm9iZS5FeGVjQWN0aW9uSAAS",
+            "FgoOcGVyaW9kX3NlY29uZHMYAiABKAUSFwoPdGltZW91dF9zZWNvbmRzGAMg",
+            "ASgFGh0KCkV4ZWNBY3Rpb24SDwoHY29tbWFuZBgBIAMoCUIMCgpwcm9iZV90",
+            "eXBlQsgBCh5jb20uZ29vZ2xlLmNsb3VkLmFpcGxhdGZvcm0udjFCCk1vZGVs",
+            "UHJvdG9QAVo+Y2xvdWQuZ29vZ2xlLmNvbS9nby9haXBsYXRmb3JtL2FwaXYx",
+            "L2FpcGxhdGZvcm1wYjthaXBsYXRmb3JtcGKqAhpHb29nbGUuQ2xvdWQuQUlQ",
+            "bGF0Zm9ybS5WMcoCGkdvb2dsZVxDbG91ZFxBSVBsYXRmb3JtXFYx6gIdR29v",
+            "Z2xlOjpDbG91ZDo6QUlQbGF0Zm9ybTo6VjFiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.FieldBehaviorReflection.Descriptor, global::Google.Api.ResourceReflection.Descriptor, global::Google.Cloud.AIPlatform.V1.DeployedModelRefReflection.Descriptor, global::Google.Cloud.AIPlatform.V1.EncryptionSpecReflection.Descriptor, global::Google.Cloud.AIPlatform.V1.EnvVarReflection.Descriptor, global::Google.Cloud.AIPlatform.V1.ExplanationReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.StructReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Google.Cloud.AIPlatform.V1.Model), global::Google.Cloud.AIPlatform.V1.Model.Parser, new[]{ "Name", "VersionId", "VersionAliases", "VersionCreateTime", "VersionUpdateTime", "DisplayName", "Description", "VersionDescription", "PredictSchemata", "MetadataSchemaUri", "Metadata", "SupportedExportFormats", "TrainingPipeline", "PipelineJob", "ContainerSpec", "ArtifactUri", "SupportedDeploymentResourcesTypes", "SupportedInputStorageFormats", "SupportedOutputStorageFormats", "CreateTime", "UpdateTime", "DeployedModels", "ExplanationSpec", "Etag", "Labels", "EncryptionSpec", "ModelSourceInfo", "OriginalModelInfo", "MetadataArtifact" }, null, new[]{ typeof(global::Google.Cloud.AIPlatform.V1.Model.Types.DeploymentResourcesType) }, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Google.Cloud.AIPlatform.V1.Model.Types.ExportFormat), global::Google.Cloud.AIPlatform.V1.Model.Types.ExportFormat.Parser, new[]{ "Id", "ExportableContents" }, null, new[]{ typeof(global::Google.Cloud.AIPlatform.V1.Model.Types.ExportFormat.Types.ExportableContent) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Google.Cloud.AIPlatform.V1.Model), global::Google.Cloud.AIPlatform.V1.Model.Parser, new[]{ "Name", "VersionId", "VersionAliases", "VersionCreateTime", "VersionUpdateTime", "DisplayName", "Description", "VersionDescription", "PredictSchemata", "MetadataSchemaUri", "Metadata", "SupportedExportFormats", "TrainingPipeline", "PipelineJob", "ContainerSpec", "ArtifactUri", "SupportedDeploymentResourcesTypes", "SupportedInputStorageFormats", "SupportedOutputStorageFormats", "CreateTime", "UpdateTime", "DeployedModels", "ExplanationSpec", "Etag", "Labels", "DataStats", "EncryptionSpec", "ModelSourceInfo", "OriginalModelInfo", "MetadataArtifact" }, null, new[]{ typeof(global::Google.Cloud.AIPlatform.V1.Model.Types.DeploymentResourcesType) }, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Google.Cloud.AIPlatform.V1.Model.Types.ExportFormat), global::Google.Cloud.AIPlatform.V1.Model.Types.ExportFormat.Parser, new[]{ "Id", "ExportableContents" }, null, new[]{ typeof(global::Google.Cloud.AIPlatform.V1.Model.Types.ExportFormat.Types.ExportableContent) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Google.Cloud.AIPlatform.V1.Model.Types.DataStats), global::Google.Cloud.AIPlatform.V1.Model.Types.DataStats.Parser, new[]{ "TrainingDataItemsCount", "ValidationDataItemsCount", "TestDataItemsCount", "TrainingAnnotationsCount", "ValidationAnnotationsCount", "TestAnnotationsCount" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Google.Cloud.AIPlatform.V1.Model.Types.OriginalModelInfo), global::Google.Cloud.AIPlatform.V1.Model.Types.OriginalModelInfo.Parser, new[]{ "Model" }, null, null, null, null),
             null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Google.Cloud.AIPlatform.V1.LargeModelReference), global::Google.Cloud.AIPlatform.V1.LargeModelReference.Parser, new[]{ "Name" }, null, null, null, null),
@@ -191,6 +199,7 @@ namespace Google.Cloud.AIPlatform.V1 {
       explanationSpec_ = other.explanationSpec_ != null ? other.explanationSpec_.Clone() : null;
       etag_ = other.etag_;
       labels_ = other.labels_.Clone();
+      dataStats_ = other.dataStats_ != null ? other.dataStats_.Clone() : null;
       encryptionSpec_ = other.encryptionSpec_ != null ? other.encryptionSpec_.Clone() : null;
       modelSourceInfo_ = other.modelSourceInfo_ != null ? other.modelSourceInfo_.Clone() : null;
       originalModelInfo_ = other.originalModelInfo_ != null ? other.originalModelInfo_.Clone() : null;
@@ -743,6 +752,24 @@ namespace Google.Cloud.AIPlatform.V1 {
       get { return labels_; }
     }
 
+    /// <summary>Field number for the "data_stats" field.</summary>
+    public const int DataStatsFieldNumber = 21;
+    private global::Google.Cloud.AIPlatform.V1.Model.Types.DataStats dataStats_;
+    /// <summary>
+    /// Stats of data used for training or evaluating the Model.
+    ///
+    /// Only populated when the Model is trained by a TrainingPipeline with
+    /// [data_input_config][TrainingPipeline.data_input_config].
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Google.Cloud.AIPlatform.V1.Model.Types.DataStats DataStats {
+      get { return dataStats_; }
+      set {
+        dataStats_ = value;
+      }
+    }
+
     /// <summary>Field number for the "encryption_spec" field.</summary>
     public const int EncryptionSpecFieldNumber = 24;
     private global::Google.Cloud.AIPlatform.V1.EncryptionSpec encryptionSpec_;
@@ -849,6 +876,7 @@ namespace Google.Cloud.AIPlatform.V1 {
       if (!object.Equals(ExplanationSpec, other.ExplanationSpec)) return false;
       if (Etag != other.Etag) return false;
       if (!Labels.Equals(other.Labels)) return false;
+      if (!object.Equals(DataStats, other.DataStats)) return false;
       if (!object.Equals(EncryptionSpec, other.EncryptionSpec)) return false;
       if (!object.Equals(ModelSourceInfo, other.ModelSourceInfo)) return false;
       if (!object.Equals(OriginalModelInfo, other.OriginalModelInfo)) return false;
@@ -885,6 +913,7 @@ namespace Google.Cloud.AIPlatform.V1 {
       if (explanationSpec_ != null) hash ^= ExplanationSpec.GetHashCode();
       if (Etag.Length != 0) hash ^= Etag.GetHashCode();
       hash ^= Labels.GetHashCode();
+      if (dataStats_ != null) hash ^= DataStats.GetHashCode();
       if (encryptionSpec_ != null) hash ^= EncryptionSpec.GetHashCode();
       if (modelSourceInfo_ != null) hash ^= ModelSourceInfo.GetHashCode();
       if (originalModelInfo_ != null) hash ^= OriginalModelInfo.GetHashCode();
@@ -957,6 +986,10 @@ namespace Google.Cloud.AIPlatform.V1 {
       }
       labels_.WriteTo(output, _map_labels_codec);
       supportedExportFormats_.WriteTo(output, _repeated_supportedExportFormats_codec);
+      if (dataStats_ != null) {
+        output.WriteRawTag(170, 1);
+        output.WriteMessage(DataStats);
+      }
       if (explanationSpec_ != null) {
         output.WriteRawTag(186, 1);
         output.WriteMessage(ExplanationSpec);
@@ -1062,6 +1095,10 @@ namespace Google.Cloud.AIPlatform.V1 {
       }
       labels_.WriteTo(ref output, _map_labels_codec);
       supportedExportFormats_.WriteTo(ref output, _repeated_supportedExportFormats_codec);
+      if (dataStats_ != null) {
+        output.WriteRawTag(170, 1);
+        output.WriteMessage(DataStats);
+      }
       if (explanationSpec_ != null) {
         output.WriteRawTag(186, 1);
         output.WriteMessage(ExplanationSpec);
@@ -1178,6 +1215,9 @@ namespace Google.Cloud.AIPlatform.V1 {
         size += 2 + pb::CodedOutputStream.ComputeStringSize(Etag);
       }
       size += labels_.CalculateSize(_map_labels_codec);
+      if (dataStats_ != null) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(DataStats);
+      }
       if (encryptionSpec_ != null) {
         size += 2 + pb::CodedOutputStream.ComputeMessageSize(EncryptionSpec);
       }
@@ -1287,6 +1327,12 @@ namespace Google.Cloud.AIPlatform.V1 {
         Etag = other.Etag;
       }
       labels_.MergeFrom(other.labels_);
+      if (other.dataStats_ != null) {
+        if (dataStats_ == null) {
+          DataStats = new global::Google.Cloud.AIPlatform.V1.Model.Types.DataStats();
+        }
+        DataStats.MergeFrom(other.DataStats);
+      }
       if (other.encryptionSpec_ != null) {
         if (encryptionSpec_ == null) {
           EncryptionSpec = new global::Google.Cloud.AIPlatform.V1.EncryptionSpec();
@@ -1405,6 +1451,13 @@ namespace Google.Cloud.AIPlatform.V1 {
           }
           case 162: {
             supportedExportFormats_.AddEntriesFrom(input, _repeated_supportedExportFormats_codec);
+            break;
+          }
+          case 170: {
+            if (dataStats_ == null) {
+              DataStats = new global::Google.Cloud.AIPlatform.V1.Model.Types.DataStats();
+            }
+            input.ReadMessage(DataStats);
             break;
           }
           case 186: {
@@ -1570,6 +1623,13 @@ namespace Google.Cloud.AIPlatform.V1 {
           }
           case 162: {
             supportedExportFormats_.AddEntriesFrom(ref input, _repeated_supportedExportFormats_codec);
+            break;
+          }
+          case 170: {
+            if (dataStats_ == null) {
+              DataStats = new global::Google.Cloud.AIPlatform.V1.Model.Types.DataStats();
+            }
+            input.ReadMessage(DataStats);
             break;
           }
           case 186: {
@@ -1956,6 +2016,409 @@ namespace Google.Cloud.AIPlatform.V1 {
       }
 
       /// <summary>
+      /// Stats of data used for train or evaluate the Model.
+      /// </summary>
+      public sealed partial class DataStats : pb::IMessage<DataStats>
+      #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+          , pb::IBufferMessage
+      #endif
+      {
+        private static readonly pb::MessageParser<DataStats> _parser = new pb::MessageParser<DataStats>(() => new DataStats());
+        private pb::UnknownFieldSet _unknownFields;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public static pb::MessageParser<DataStats> Parser { get { return _parser; } }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public static pbr::MessageDescriptor Descriptor {
+          get { return global::Google.Cloud.AIPlatform.V1.Model.Descriptor.NestedTypes[1]; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        pbr::MessageDescriptor pb::IMessage.Descriptor {
+          get { return Descriptor; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public DataStats() {
+          OnConstruction();
+        }
+
+        partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public DataStats(DataStats other) : this() {
+          trainingDataItemsCount_ = other.trainingDataItemsCount_;
+          validationDataItemsCount_ = other.validationDataItemsCount_;
+          testDataItemsCount_ = other.testDataItemsCount_;
+          trainingAnnotationsCount_ = other.trainingAnnotationsCount_;
+          validationAnnotationsCount_ = other.validationAnnotationsCount_;
+          testAnnotationsCount_ = other.testAnnotationsCount_;
+          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public DataStats Clone() {
+          return new DataStats(this);
+        }
+
+        /// <summary>Field number for the "training_data_items_count" field.</summary>
+        public const int TrainingDataItemsCountFieldNumber = 1;
+        private long trainingDataItemsCount_;
+        /// <summary>
+        /// Number of DataItems that were used for training this Model.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public long TrainingDataItemsCount {
+          get { return trainingDataItemsCount_; }
+          set {
+            trainingDataItemsCount_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "validation_data_items_count" field.</summary>
+        public const int ValidationDataItemsCountFieldNumber = 2;
+        private long validationDataItemsCount_;
+        /// <summary>
+        /// Number of DataItems that were used for validating this Model during
+        /// training.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public long ValidationDataItemsCount {
+          get { return validationDataItemsCount_; }
+          set {
+            validationDataItemsCount_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "test_data_items_count" field.</summary>
+        public const int TestDataItemsCountFieldNumber = 3;
+        private long testDataItemsCount_;
+        /// <summary>
+        /// Number of DataItems that were used for evaluating this Model. If the
+        /// Model is evaluated multiple times, this will be the number of test
+        /// DataItems used by the first evaluation. If the Model is not evaluated,
+        /// the number is 0.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public long TestDataItemsCount {
+          get { return testDataItemsCount_; }
+          set {
+            testDataItemsCount_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "training_annotations_count" field.</summary>
+        public const int TrainingAnnotationsCountFieldNumber = 4;
+        private long trainingAnnotationsCount_;
+        /// <summary>
+        /// Number of Annotations that are used for training this Model.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public long TrainingAnnotationsCount {
+          get { return trainingAnnotationsCount_; }
+          set {
+            trainingAnnotationsCount_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "validation_annotations_count" field.</summary>
+        public const int ValidationAnnotationsCountFieldNumber = 5;
+        private long validationAnnotationsCount_;
+        /// <summary>
+        /// Number of Annotations that are used for validating this Model during
+        /// training.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public long ValidationAnnotationsCount {
+          get { return validationAnnotationsCount_; }
+          set {
+            validationAnnotationsCount_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "test_annotations_count" field.</summary>
+        public const int TestAnnotationsCountFieldNumber = 6;
+        private long testAnnotationsCount_;
+        /// <summary>
+        /// Number of Annotations that are used for evaluating this Model. If the
+        /// Model is evaluated multiple times, this will be the number of test
+        /// Annotations used by the first evaluation. If the Model is not evaluated,
+        /// the number is 0.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public long TestAnnotationsCount {
+          get { return testAnnotationsCount_; }
+          set {
+            testAnnotationsCount_ = value;
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public override bool Equals(object other) {
+          return Equals(other as DataStats);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public bool Equals(DataStats other) {
+          if (ReferenceEquals(other, null)) {
+            return false;
+          }
+          if (ReferenceEquals(other, this)) {
+            return true;
+          }
+          if (TrainingDataItemsCount != other.TrainingDataItemsCount) return false;
+          if (ValidationDataItemsCount != other.ValidationDataItemsCount) return false;
+          if (TestDataItemsCount != other.TestDataItemsCount) return false;
+          if (TrainingAnnotationsCount != other.TrainingAnnotationsCount) return false;
+          if (ValidationAnnotationsCount != other.ValidationAnnotationsCount) return false;
+          if (TestAnnotationsCount != other.TestAnnotationsCount) return false;
+          return Equals(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public override int GetHashCode() {
+          int hash = 1;
+          if (TrainingDataItemsCount != 0L) hash ^= TrainingDataItemsCount.GetHashCode();
+          if (ValidationDataItemsCount != 0L) hash ^= ValidationDataItemsCount.GetHashCode();
+          if (TestDataItemsCount != 0L) hash ^= TestDataItemsCount.GetHashCode();
+          if (TrainingAnnotationsCount != 0L) hash ^= TrainingAnnotationsCount.GetHashCode();
+          if (ValidationAnnotationsCount != 0L) hash ^= ValidationAnnotationsCount.GetHashCode();
+          if (TestAnnotationsCount != 0L) hash ^= TestAnnotationsCount.GetHashCode();
+          if (_unknownFields != null) {
+            hash ^= _unknownFields.GetHashCode();
+          }
+          return hash;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public override string ToString() {
+          return pb::JsonFormatter.ToDiagnosticString(this);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void WriteTo(pb::CodedOutputStream output) {
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+          output.WriteRawMessage(this);
+        #else
+          if (TrainingDataItemsCount != 0L) {
+            output.WriteRawTag(8);
+            output.WriteInt64(TrainingDataItemsCount);
+          }
+          if (ValidationDataItemsCount != 0L) {
+            output.WriteRawTag(16);
+            output.WriteInt64(ValidationDataItemsCount);
+          }
+          if (TestDataItemsCount != 0L) {
+            output.WriteRawTag(24);
+            output.WriteInt64(TestDataItemsCount);
+          }
+          if (TrainingAnnotationsCount != 0L) {
+            output.WriteRawTag(32);
+            output.WriteInt64(TrainingAnnotationsCount);
+          }
+          if (ValidationAnnotationsCount != 0L) {
+            output.WriteRawTag(40);
+            output.WriteInt64(ValidationAnnotationsCount);
+          }
+          if (TestAnnotationsCount != 0L) {
+            output.WriteRawTag(48);
+            output.WriteInt64(TestAnnotationsCount);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(output);
+          }
+        #endif
+        }
+
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+          if (TrainingDataItemsCount != 0L) {
+            output.WriteRawTag(8);
+            output.WriteInt64(TrainingDataItemsCount);
+          }
+          if (ValidationDataItemsCount != 0L) {
+            output.WriteRawTag(16);
+            output.WriteInt64(ValidationDataItemsCount);
+          }
+          if (TestDataItemsCount != 0L) {
+            output.WriteRawTag(24);
+            output.WriteInt64(TestDataItemsCount);
+          }
+          if (TrainingAnnotationsCount != 0L) {
+            output.WriteRawTag(32);
+            output.WriteInt64(TrainingAnnotationsCount);
+          }
+          if (ValidationAnnotationsCount != 0L) {
+            output.WriteRawTag(40);
+            output.WriteInt64(ValidationAnnotationsCount);
+          }
+          if (TestAnnotationsCount != 0L) {
+            output.WriteRawTag(48);
+            output.WriteInt64(TestAnnotationsCount);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(ref output);
+          }
+        }
+        #endif
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public int CalculateSize() {
+          int size = 0;
+          if (TrainingDataItemsCount != 0L) {
+            size += 1 + pb::CodedOutputStream.ComputeInt64Size(TrainingDataItemsCount);
+          }
+          if (ValidationDataItemsCount != 0L) {
+            size += 1 + pb::CodedOutputStream.ComputeInt64Size(ValidationDataItemsCount);
+          }
+          if (TestDataItemsCount != 0L) {
+            size += 1 + pb::CodedOutputStream.ComputeInt64Size(TestDataItemsCount);
+          }
+          if (TrainingAnnotationsCount != 0L) {
+            size += 1 + pb::CodedOutputStream.ComputeInt64Size(TrainingAnnotationsCount);
+          }
+          if (ValidationAnnotationsCount != 0L) {
+            size += 1 + pb::CodedOutputStream.ComputeInt64Size(ValidationAnnotationsCount);
+          }
+          if (TestAnnotationsCount != 0L) {
+            size += 1 + pb::CodedOutputStream.ComputeInt64Size(TestAnnotationsCount);
+          }
+          if (_unknownFields != null) {
+            size += _unknownFields.CalculateSize();
+          }
+          return size;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void MergeFrom(DataStats other) {
+          if (other == null) {
+            return;
+          }
+          if (other.TrainingDataItemsCount != 0L) {
+            TrainingDataItemsCount = other.TrainingDataItemsCount;
+          }
+          if (other.ValidationDataItemsCount != 0L) {
+            ValidationDataItemsCount = other.ValidationDataItemsCount;
+          }
+          if (other.TestDataItemsCount != 0L) {
+            TestDataItemsCount = other.TestDataItemsCount;
+          }
+          if (other.TrainingAnnotationsCount != 0L) {
+            TrainingAnnotationsCount = other.TrainingAnnotationsCount;
+          }
+          if (other.ValidationAnnotationsCount != 0L) {
+            ValidationAnnotationsCount = other.ValidationAnnotationsCount;
+          }
+          if (other.TestAnnotationsCount != 0L) {
+            TestAnnotationsCount = other.TestAnnotationsCount;
+          }
+          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void MergeFrom(pb::CodedInputStream input) {
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+          input.ReadRawMessage(this);
+        #else
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+            switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                break;
+              case 8: {
+                TrainingDataItemsCount = input.ReadInt64();
+                break;
+              }
+              case 16: {
+                ValidationDataItemsCount = input.ReadInt64();
+                break;
+              }
+              case 24: {
+                TestDataItemsCount = input.ReadInt64();
+                break;
+              }
+              case 32: {
+                TrainingAnnotationsCount = input.ReadInt64();
+                break;
+              }
+              case 40: {
+                ValidationAnnotationsCount = input.ReadInt64();
+                break;
+              }
+              case 48: {
+                TestAnnotationsCount = input.ReadInt64();
+                break;
+              }
+            }
+          }
+        #endif
+        }
+
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+            switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+                break;
+              case 8: {
+                TrainingDataItemsCount = input.ReadInt64();
+                break;
+              }
+              case 16: {
+                ValidationDataItemsCount = input.ReadInt64();
+                break;
+              }
+              case 24: {
+                TestDataItemsCount = input.ReadInt64();
+                break;
+              }
+              case 32: {
+                TrainingAnnotationsCount = input.ReadInt64();
+                break;
+              }
+              case 40: {
+                ValidationAnnotationsCount = input.ReadInt64();
+                break;
+              }
+              case 48: {
+                TestAnnotationsCount = input.ReadInt64();
+                break;
+              }
+            }
+          }
+        }
+        #endif
+
+      }
+
+      /// <summary>
       /// Contains information about the original Model if this Model is a copy.
       /// </summary>
       public sealed partial class OriginalModelInfo : pb::IMessage<OriginalModelInfo>
@@ -1972,7 +2435,7 @@ namespace Google.Cloud.AIPlatform.V1 {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
         public static pbr::MessageDescriptor Descriptor {
-          get { return global::Google.Cloud.AIPlatform.V1.Model.Descriptor.NestedTypes[1]; }
+          get { return global::Google.Cloud.AIPlatform.V1.Model.Descriptor.NestedTypes[2]; }
         }
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3940,6 +4403,10 @@ namespace Google.Cloud.AIPlatform.V1 {
         /// The Model is saved or tuned from Genie.
         /// </summary>
         [pbr::OriginalName("GENIE")] Genie = 5,
+        /// <summary>
+        /// The Model is uploaded by text embedding finetuning pipeline.
+        /// </summary>
+        [pbr::OriginalName("CUSTOM_TEXT_EMBEDDING")] CustomTextEmbedding = 6,
       }
 
     }
